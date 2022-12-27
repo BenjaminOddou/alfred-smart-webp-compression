@@ -106,7 +106,7 @@ The preset selected preset within the workflow holds all the cwebp [options] use
 
 ## 🤖 Usage of the workflow
 
-### 🆕 Create New preset
+### 🆕 Create a preset
 
 Go under the preset section and click on "Add a preset"
 
@@ -160,7 +160,7 @@ Select the "Images Folder" under the main menu and search for the new one under 
 
 ## 🚀 Start the compression
 
-Once the workflow the preset and the images folder are set correctly, click on "Start the compression" under the home menu.
+Once the preset and the images folder are set correctly, click on "Start the compression" under the home menu.
 
 ![start_compress](src/images/start_compress.png)
 
