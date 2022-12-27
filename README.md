@@ -11,6 +11,10 @@ Welcome to the Alfred Smart WebP Compression repository: **An Alfred Workflowk**
 * 🍎 MacOS
 * 🎩 Alfred 5. Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.
 
+## ℹ️ information
+
+* 🏎️ Under the hood, the compression is made with [cwebp](https://developers.google.com/speed/webp/docs/cwebp) (made by Google), a tool that allows to compress images into the WebP format, which is generally lighter 🪶, and broadly used to share images on the web.
+
 ## ⬇️ Installation
 
 1. [Download the workflow](https://github.com/BenjaminOddou/alfred-smart-webp-compression/releases/latest)
