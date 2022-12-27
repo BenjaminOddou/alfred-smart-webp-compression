@@ -1,0 +1,3253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.benjamino.smart_webp_compression</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>02196C93-1D05-40FE-B21B-513520F9346D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE84884F-0D18-4E0D-AA0C-C65A9E52A5F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>04D038F9-4BA3-44DE-9961-74A17474DB6D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE6A52F7-0196-452F-ACAB-DC1A45F35E0B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>154BFBB1-825A-4E5D-A989-907CC91E90B1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D0BCADEA-4B48-4681-BF5A-3A99963BCB69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4DAEC97F-1FCC-457A-BBB1-F7EF119416B0</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B2ED758E-2C2B-4709-BAF1-2D6A6236303C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0CC2B59D-DDCA-43EF-83D0-4F9E70866E77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B884E15A-B55E-46D8-9372-5B3565E9FA28</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0D2BC16E-A86B-434C-B357-9BA0F382A204</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FEF31982-CE2C-4D53-A108-2F06FE07A9DD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>154BFBB1-825A-4E5D-A989-907CC91E90B1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>816424E4-D414-4244-AACE-55015741C929</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>595747D0-9789-4ECE-B171-19C89A5A5296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1B42C30F-88AE-47B5-B31D-B8BAF47130F4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0630315-06B0-4A9E-9CAD-54819448B18C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1D587362-EF39-4930-8AEC-C83A00037F71</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5ABD8595-9ED9-4626-A339-3E5F97ECB442</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1DC28B4A-CE6E-42D7-9870-23191353528A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>750A55C9-C8A2-49BB-8AB3-7E17DD1FE602</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>756748B7-4D28-48DF-BBA9-2EA452BB0611</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1F94198E-A0AE-4609-A7AB-18F2EA5BD61E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F5093F85-53E7-4E65-BECB-DAA22C5B8DD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>303F768B-D7FE-4A18-91F0-0261BD528F2A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7EE9CE94-B507-40B3-A060-BC337D689A6E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>30F44CB0-C58D-48C6-B23A-AA81E4A3CD16</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>04D038F9-4BA3-44DE-9961-74A17474DB6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3249F739-3D81-4D23-9667-C2DD7429B5E8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D587362-EF39-4930-8AEC-C83A00037F71</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2499EC30-993E-455E-9B3B-CBDF81F69684</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>49BEB4B9-ED4B-4C09-AD1B-98D642860B6D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>30F44CB0-C58D-48C6-B23A-AA81E4A3CD16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A8FBE54-FA7D-4A95-8007-8661D0997072</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>522260BF-CEF1-48EF-B0CE-684F4733601A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D904832A-634D-4FAD-9DEA-31793271385A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F3F45CB5-7506-4071-887D-9E482B8F5CFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AF4D7687-5A37-4236-B166-A78D77CAB6A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>595747D0-9789-4ECE-B171-19C89A5A5296</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A5A2AF5F-E9C4-4398-AD34-4BB96ACD3D06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2499EC30-993E-455E-9B3B-CBDF81F69684</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5ABD8595-9ED9-4626-A339-3E5F97ECB442</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1EC557CA-45DF-485F-B2D2-E9B611448E07</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>71E64FC2-2DAA-4FAF-A464-54D8B3567EAC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A555A4F7-613D-4316-B22A-968A6E69CB70</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>756748B7-4D28-48DF-BBA9-2EA452BB0611</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C61ECE1-9688-4CC2-AD32-0A344DB310A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7EE9CE94-B507-40B3-A060-BC337D689A6E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>71E64FC2-2DAA-4FAF-A464-54D8B3567EAC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>816424E4-D414-4244-AACE-55015741C929</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B42C30F-88AE-47B5-B31D-B8BAF47130F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8C61ECE1-9688-4CC2-AD32-0A344DB310A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>73938F12-DE09-4CE5-B723-3B05299685FE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>91898FBD-AF59-44AC-9750-B83CD3A8A694</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A93876C1-0937-4F57-BCC3-5B2964742411</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3249F739-3D81-4D23-9667-C2DD7429B5E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9741013C-6FB7-4382-93A5-C6B81A57CF93</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9026F71A-CC9B-41BA-ACD0-2F1E39DBF2E2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99F304D7-85C9-481C-B520-9003FD19B70D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91898FBD-AF59-44AC-9750-B83CD3A8A694</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A93876C1-0937-4F57-BCC3-5B2964742411</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8333BF6-C873-4B46-A39F-9FDAC8311F9F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B0630315-06B0-4A9E-9CAD-54819448B18C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C73B8C4E-A0A8-4564-9AF9-7AA8C1DE4A52</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B2ED758E-2C2B-4709-BAF1-2D6A6236303C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D587362-EF39-4930-8AEC-C83A00037F71</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B857BE3A-4375-4247-9082-05CDEC4E3BB4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8D719F8-DD29-4338-B775-A476F2437FAB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B884E15A-B55E-46D8-9372-5B3565E9FA28</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1F94198E-A0AE-4609-A7AB-18F2EA5BD61E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CA89FD68-A173-4BA5-A981-DB447D2E51D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2B93A876-A711-4FD7-8C0A-2B3DBADF4936</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CB9B4DE3-0575-43F8-A28E-3B18C623C590</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>046B128E-3352-4012-83A4-44FD918EE4E5</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B857BE3A-4375-4247-9082-05CDEC4E3BB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A3C12F25-0355-421E-BFAB-A4C9A2F9AA54</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>49BEB4B9-ED4B-4C09-AD1B-98D642860B6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>045A2544-20E0-421A-B17F-ED08F558D2E1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DC28B4A-CE6E-42D7-9870-23191353528A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1BF300BB-6515-4042-BC86-E62DD65CB460</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8333BF6-C873-4B46-A39F-9FDAC8311F9F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D2BC16E-A86B-434C-B357-9BA0F382A204</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8D719F8-DD29-4338-B775-A476F2437FAB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9741013C-6FB7-4382-93A5-C6B81A57CF93</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CB9B4DE3-0575-43F8-A28E-3B18C623C590</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>522260BF-CEF1-48EF-B0CE-684F4733601A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CE6A52F7-0196-452F-ACAB-DC1A45F35E0B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>303F768B-D7FE-4A18-91F0-0261BD528F2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D0BCADEA-4B48-4681-BF5A-3A99963BCB69</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>99F304D7-85C9-481C-B520-9003FD19B70D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E927BA1E-77BB-466D-A594-C260C2CA3651</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>02196C93-1D05-40FE-B21B-513520F9346D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F3F45CB5-7506-4071-887D-9E482B8F5CFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E927BA1E-77BB-466D-A594-C260C2CA3651</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F5093F85-53E7-4E65-BECB-DAA22C5B8DD1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>488DDF1E-8133-41BF-8753-0E3BA64EB974</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>987B61E6-3C9B-4CC1-A323-5AA0192DBDE4</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8DBB0399-4117-43EA-BB62-E8C9B92B16F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CA89FD68-A173-4BA5-A981-DB447D2E51D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Benjamin ODDOU</string>
+	<key>description</key>
+	<string>🧙‍♂️ Transform your images into WebP format with ease</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Smart WebP Compression</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>cpanm Mojolicious --sudo</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>488DDF1E-8133-41BF-8753-0E3BA64EB974</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>8DBB0399-4117-43EA-BB62-E8C9B92B16F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://developers.google.com/speed/webp/docs/cwebp</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D904832A-634D-4FAD-9DEA-31793271385A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Checking versions...</string>
+				<key>script</key>
+				<string>#!/bin/bash
+packages=( "jq" "cpanm" )
+c=0
+
+if [[ $(brew --version | sed 1q) != "command not found: brew" ]]
+then
+ brewv="$(brew --version | sed 1q) ✅"
+  for i in "${packages[@]}"
+  do
+    if [[ "$(command -v ${i})" != "" ]]
+    then 
+      package[c++]="$(brew list --versions ${i}) ✅"
+    else
+      package[c++]="${i} is not installed 🚧 | Hit Enter to install ⬇️ | Need Homebrew to be installed ⚠️"
+    fi
+  done
+else
+  brewv="Hombrew is not installed 🚧 | Hit Enter to install ⬇️"
+fi
+
+if [[ $(2&gt;&amp;1 perldoc -l Mojolicious) != "No documentation found for \"Mojolicious\"." ]]
+then
+    package_mojo="Mojolicious $(perl -MMojolicious -e 'print $Mojolicious::VERSION ."\n"') ✅"
+else
+    package_mojo="Mojolicious is not installed 🚧 | Hit Enter to install ⬇️ | Need Cpanm to be installed ⚠️"
+fi
+
+cat &lt;&lt; EOB
+{
+"items": [
+   {
+    "title": "Homebrew",
+    "subtitle": "${brewv}",
+    "arg": "brew",
+    "autocomplete": "Homebrew",
+    "icon": {
+        "path": "homebrew-icon.png"
+      }
+    },
+    {
+    "title": "Jq",
+    "subtitle": "${package[0]}",
+    "arg": "jq",
+    "autocomplete": "Jq",
+    "icon": {
+        "path": "jq-icon.png"
+      }
+    },
+    {
+    "title": "Cpanm",
+    "subtitle": "${package[1]}",
+    "arg": "cpanm",
+    "autocomplete": "Cpanm",
+    "icon": {
+        "path": "perl-icon.png"
+      }
+    },
+    {
+    "title": "Mojolicious",
+    "subtitle": "${package_mojo}",
+    "arg": "mojo",
+    "autocomplete": "Mojolicious",
+    "icon": {
+        "path": "mojo-icon.png"
+      }
+    }
+  ]
+}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Setup toolbox</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>1F94198E-A0AE-4609-A7AB-18F2EA5BD61E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>mojo</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>987B61E6-3C9B-4CC1-A323-5AA0192DBDE4</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>brew</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F5093F85-53E7-4E65-BECB-DAA22C5B8DD1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use Mojo::UserAgent;
+
+# Get HTML page of cwebp documentation
+my $url = Mojo::URL-&gt;new('https://developers.google.com/speed/webp/docs/cwebp');
+my $ua = Mojo::UserAgent-&gt;new;
+my $dom = $ua-&gt;get($url)-&gt;result-&gt;dom;
+
+# Title of options are under dt &gt; code tags
+my $titles = $dom-&gt;find('dt &gt; code')-&gt;map('text')-&gt;join("|");
+
+# Put a delimiter for next script
+print $titles, '&amp;&amp;&amp;&amp;&amp;';
+
+# Description of options are under dd tags
+for my $descr ($dom-&gt;find('dd')-&gt;each) {
+    print $descr-&gt;all_text, '|';
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string>parse.pl</string>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F3F45CB5-7506-4071-887D-9E482B8F5CFB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>v#!/bin/bash
+html_parse="{query}"
+
+# Supress last pipe and convert &amp;&amp;&amp;&amp;&amp; into new line
+clean_parse=$(echo $html_parse | sed 's/\(.*\)|/\1/' | sed 's/&amp;&amp;&amp;&amp;&amp;/\n/')
+
+# Transform first line as key and second as value to group title and descrp of option
+pair_json=$(jq -Rn '
+( input  | split("|") ) as $keys |
+( inputs | split("|") ) as $vals |
+[[$keys, $vals] | transpose[] | {key:.[0],value:.[1]}] | from_entries
+' &lt;&lt;&lt;"$clean_parse")
+
+jq -r '. | to_entries[] | {uid: .key, title: .key, subtitle: .value, arg: .key, autocomplete: .key, icon:{path:"page-icon.png"}}' &lt;&lt;&lt; "${pair_json}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E927BA1E-77BB-466D-A594-C260C2CA3651</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:doc_folder}/docs.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>02196C93-1D05-40FE-B21B-513520F9346D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>tools</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>webp</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>2B93A876-A711-4FD7-8C0A-2B3DBADF4936</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>doc</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>046B128E-3352-4012-83A4-44FD918EE4E5</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>imgfolder</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>A3C12F25-0355-421E-BFAB-A4C9A2F9AA54</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>presets</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>045A2544-20E0-421A-B17F-ED08F558D2E1</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>compress</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1BF300BB-6515-4042-BC86-E62DD65CB460</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>B884E15A-B55E-46D8-9372-5B3565E9FA28</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>brew install {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>CA89FD68-A173-4BA5-A981-DB447D2E51D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Documentation updated 📖</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CE84884F-0D18-4E0D-AA0C-C65A9E52A5F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>webp</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Initialisation...</string>
+				<key>script</key>
+				<string>#!/bin/bash
+setup_tools=( "brew" "jq" )
+
+for i in {1..3}
+do
+    check[$i]="non"
+done
+
+for i in "${setup_tools[@]}"
+do
+  if [[ "$(command -v ${i})" == "" ]]
+  then 
+    status="Cannot check CWebP version -&gt; go to the setup toolbox and check Homebrew and jq installation 🚧"
+    break
+  fi
+  if [[ "${i}" == "jq" &amp;&amp; "$(command -v cwebp)" != "" ]]
+  then
+    online_version="$(curl -s https://formulae.brew.sh/api/formula/webp.json | jq -r '.versions.stable')"
+    local_version="$(cwebp -version)"
+
+    if [[ "${online_version}" == "${local_version}" ]]
+    then
+      status="CWebP is up to date ✅ | $local_version"
+      check[1]="oui"
+    elif [[ "$local_version" != "" ]]
+    then
+      status="Update available ✨ | $local_version to $online_version"
+      check[1]="oui"
+    fi
+  else
+    status="CWebP is not installed ❌ | Hit Enter to install ⬇️ | Need Homebrew to be installed ⚠️"
+  fi
+done
+
+if [[ "${img_folder}" != "" ]]
+then
+  pathimg="${img_folder} ✅"
+  check[2]="oui"
+else
+  pathimg="No folder selected ❌"
+fi
+
+if [[ "${the_preset}" != "" ]]
+then
+ preset_s="$(echo "${the_preset}" | sed 's/,/ | /') ✅"
+ check[3]="oui"
+else
+ preset_s="No preset selected ❌"
+fi
+
+for i in {1..3}
+do
+    if [[ "${check[$i]}" == "non" ]]
+    then
+        arg_compress="compress,non"
+        break
+    else
+        arg_compress="compress,oui"
+    fi
+done
+
+if [[ "${check[1]}" == "non" ]]
+then
+    arg_preset="presets,non"
+else
+    arg_preset="presets,oui"
+fi
+
+cat &lt;&lt; EOB
+{
+"items": [
+   {
+    "title": "Start the compression",
+    "subtitle": "Run the CWebP compression with your parameters",
+    "arg": "${arg_compress}",
+    "autocomplete": "Start the compression",
+    "icon": {
+        "path": "rocket-icon.png"
+      }
+    },
+   {
+    "title": "Preset",
+    "subtitle": "${preset_s}",
+    "arg": "${arg_preset}",
+    "autocomplete": "Preset",
+    "icon": {
+        "path": "30F44CB0-C58D-48C6-B23A-AA81E4A3CD16.png"
+      }
+    },
+    {
+    "title": "Images Folder",
+    "subtitle": "${pathimg}",
+    "arg": "imgfolder",
+    "autocomplete": "Images Folder",
+    "icon": {
+        "path": "B857BE3A-4375-4247-9082-05CDEC4E3BB4.png"
+      }
+    },
+   {
+    "title": "CWebP documentation",
+    "subtitle": "Show cwebp documentation",
+    "arg": "doc",
+    "autocomplete": "CWebP documentation",
+    "icon": {
+        "path": "CB9B4DE3-0575-43F8-A28E-3B18C623C590.png"
+      }
+    },
+   {
+    "title": "CWebP version",
+    "subtitle": "${status}",
+    "arg": "webp",
+    "autocomplete": "CWebP version",
+    "icon": {
+        "path": "webp-icon.png"
+      }
+    },
+    {
+    "title": "Setup toolbox",
+    "subtitle": "All tools needed for the workflow",
+    "arg": "tools",
+    "autocomplete": "Setup toolbox",
+    "icon": {
+        "path": "1F94198E-A0AE-4609-A7AB-18F2EA5BD61E.png"
+      }
+    }
+  ]
+}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Convert images in a folder to WebP format easily</string>
+				<key>title</key>
+				<string>Smart WebP Compression</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0CC2B59D-DDCA-43EF-83D0-4F9E70866E77</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AF4D7687-5A37-4236-B166-A78D77CAB6A5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Documentation...</string>
+				<key>script</key>
+				<string>#!/bin/bash
+raw='
+{"uid":"Online documention","title":"Online documention","subtitle":"Open online cwebp documentation","arg":"online","autocomplete":"Online documention","icon":{"path":"globe-icon.png"}}
+{"uid":"Refresh documentation","title":"Refresh documentation","subtitle":"Refresh Alfred cwebp documentation","arg":"refresh","autocomplete":"Refresh documentation","icon":{"path":"refresh-icon.png"}}
+'
+doc_json=$(jq '.' ${doc_folder}/docs.txt)
+temp=$(echo "$raw$doc_json")
+final=$(jq -s '{items : .}' &lt;&lt;&lt; $temp)
+
+cat &lt;&lt; EOB
+${final}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Show cwebp documentation</string>
+				<key>title</key>
+				<string>Documentation</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CB9B4DE3-0575-43F8-A28E-3B18C623C590</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>online</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>refresh</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>522260BF-CEF1-48EF-B0CE-684F4733601A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Loading Folders....</string>
+				<key>title</key>
+				<string>Choose folder for compression</string>
+				<key>types</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>B857BE3A-4375-4247-9082-05CDEC4E3BB4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:_img_folder}</string>
+				<key>title</key>
+				<string>Images Folder set up ✅</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>9026F71A-CC9B-41BA-ACD0-2F1E39DBF2E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set _img_folder to "{query}"
+
+tell application id "com.runningwithcrayons.Alfred" to set configuration "img_folder" to value _img_folder in workflow "com.benjamino.smart_webp_compression"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9741013C-6FB7-4382-93A5-C6B81A57CF93</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>_img_folder</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C8D719F8-DD29-4338-B775-A476F2437FAB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>name : {var:_preseta1} | value : {var:_preseta2}</string>
+				<key>title</key>
+				<string>Preset created 🆕</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>A555A4F7-613D-4316-B22A-968A6E69CB70</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Create a new preset by writing preset_name,preset_detail and press Enter ↩️</string>
+				<key>text</key>
+				<string>Add a preset</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CE6A52F7-0196-452F-ACAB-DC1A45F35E0B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+preset="{query}"
+
+jq -R 'split(",") | {title: .[0], subtitle: .[1], arg: (.[0] + "," + .[1]), autocomplete: .[0], icon:{path:"preset-icon.png"}}' &lt;&lt;&lt; "${preset}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7EE9CE94-B507-40B3-A060-BC337D689A6E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:preset_log_folder}/presets.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>71E64FC2-2DAA-4FAF-A464-54D8B3567EAC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>_preseta</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>303F768B-D7FE-4A18-91F0-0261BD528F2A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>new</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>delete</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>modify</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>4DAEC97F-1FCC-457A-BBB1-F7EF119416B0</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>04D038F9-4BA3-44DE-9961-74A17474DB6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Presets...</string>
+				<key>script</key>
+				<string>#!/bin/bash
+raw='
+{"title":"Add a preset","subtitle":"Create a new preset and save it in Alfred app","arg":"new","autocomplete":"Add a preset","icon":{"path":"CE6A52F7-0196-452F-ACAB-DC1A45F35E0B.png"}}
+{"title":"Remove a preset","subtitle":"Select the preset you want to remove and press enter","arg":"delete","autocomplete":"Remove a preset","icon":{"path":"154BFBB1-825A-4E5D-A989-907CC91E90B1.png"}}
+{"title":"Modify a preset","subtitle":"Select the preset you want to modify and change its value","arg":"modify","autocomplete":"Modify a preset","icon":{"path":"D0BCADEA-4B48-4681-BF5A-3A99963BCB69.png"}}
+'
+presets=$(jq '.' ${preset_log_folder}/presets.txt)
+temp=$(echo "$raw$presets")
+final=$(jq -s '{items : .}' &lt;&lt;&lt; $temp)
+
+cat &lt;&lt; EOB
+${final}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Set the parameters for the compression</string>
+				<key>title</key>
+				<string>Presets for compression</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>30F44CB0-C58D-48C6-B23A-AA81E4A3CD16</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>oui</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>non</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>49BEB4B9-ED4B-4C09-AD1B-98D642860B6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+arg="{query}"
+
+dirty=$(jq --arg key "$arg" 'del(select(.arg == $key))' ${preset_log_folder}/presets.txt)
+
+clean=$(echo $dirty | sed 's/null//')
+
+jq '.' &lt;&lt;&lt; "${clean}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1B42C30F-88AE-47B5-B31D-B8BAF47130F4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:preset_log_folder}/presets.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>B0630315-06B0-4A9E-9CAD-54819448B18C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>name : {var:_presetr1} | value : {var:_presetr2}</string>
+				<key>title</key>
+				<string>Preset removed ❌</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C73B8C4E-A0A8-4564-9AF9-7AA8C1DE4A52</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Presets...</string>
+				<key>script</key>
+				<string>#!/bin/bash
+presets=$(jq -s '{items : .}' ${preset_log_folder}/presets.txt)
+
+cat &lt;&lt; EOB
+${presets}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Create a new preset by writing preset_name,preset_detail and press Enter ↩️</string>
+				<key>title</key>
+				<string>Remove a preset</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>154BFBB1-825A-4E5D-A989-907CC91E90B1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>_presetr</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>816424E4-D414-4244-AACE-55015741C929</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Please install correctly Hombrew, Jq and CWebP</string>
+				<key>title</key>
+				<string>Oups... something went wrong ❌</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>6A8FBE54-FA7D-4A95-8007-8661D0997072</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>tell application id "com.runningwithcrayons.Alfred" to remove configuration "the_preset" in workflow "com.benjamino.smart_webp_compression"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A5A2AF5F-E9C4-4398-AD34-4BB96ACD3D06</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>{var:the_preset}</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>2499EC30-993E-455E-9B3B-CBDF81F69684</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>595747D0-9789-4ECE-B171-19C89A5A5296</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Please check the workflow documentation</string>
+				<key>title</key>
+				<string>Oups... config is not correct ❌</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>750A55C9-C8A2-49BB-8AB3-7E17DD1FE602</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>non</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1891A02A-6CF8-4BBC-B8F9-97BD1B09BF5B</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>oui</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>48BA939C-0394-4A5B-84BD-AE430C803E1B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>1DC28B4A-CE6E-42D7-9870-23191353528A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:preset_log_folder}/presets.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>0D2BC16E-A86B-434C-B357-9BA0F382A204</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>name : {var:_presetmf1} | value : {var:_presetmf2}</string>
+				<key>title</key>
+				<string>Preset modified ✍️</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>FEF31982-CE2C-4D53-A108-2F06FE07A9DD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+old_preset="${_old_preset}"
+temp_new_preset="{query}"
+new_preset=$(jq -R 'split(",") | {title: .[0], subtitle: .[1], arg: (.[0] + "," + .[1]), autocomplete: .[0], icon:{path:"preset-icon.png"}}' &lt;&lt;&lt; "${temp_new_preset}")
+
+jq --arg key1 "$old_preset" --argjson key2 "$new_preset" 'select(.arg == $key1) |= $key2' "${preset_log_folder}/presets.txt"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C8333BF6-C873-4B46-A39F-9FDAC8311F9F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Modify the preset_name,preset_detail and press Enter ↩️</string>
+				<key>text</key>
+				<string>Modify the preset</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>91898FBD-AF59-44AC-9750-B83CD3A8A694</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Presets...</string>
+				<key>script</key>
+				<string>#!/bin/bash
+presets=$(jq -s '{items : .}' ${preset_log_folder}/presets.txt)
+
+cat &lt;&lt; EOB
+${presets}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Modify the preset_name,preset_detail and press Enter ↩️</string>
+				<key>title</key>
+				<string>Modify a preset</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D0BCADEA-4B48-4681-BF5A-3A99963BCB69</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>_presetmf</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>A93876C1-0937-4F57-BCC3-5B2964742411</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>_old_preset</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>99F304D7-85C9-481C-B520-9003FD19B70D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+PARAMS=$(echo ${the_preset} | sed -e 's/^.*,//g' | tr -d "'")
+
+for FILE in ${img_folder}/*
+do 
+    2&gt;&amp;1 cwebp eval " ${PARAMS}" "${FILE}" -o "${FILE%.*}.webp"
+done</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>{query}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>756748B7-4D28-48DF-BBA9-2EA452BB0611</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{var:preset_log_folder}/logs.txt</string>
+				<key>filetext</key>
+				<string>{date}
+{time}
+Folder modified : {var:img_folder}
+Preset : {var:the_preset}
+
+{query}
+______________________
+</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>8C61ECE1-9688-4CC2-AD32-0A344DB310A9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:preset_log_folder}/logs.txt</string>
+				<key>title</key>
+				<string>See the logs here 📃</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>73938F12-DE09-4CE5-B723-3B05299685FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:_old_preset}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>{var:the_preset}</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>2499EC30-993E-455E-9B3B-CBDF81F69684</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>3249F739-3D81-4D23-9667-C2DD7429B5E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set _the_preset to "{query}"
+
+tell application id "com.runningwithcrayons.Alfred" to set configuration "the_preset" to value _the_preset in workflow "com.benjamino.smart_webp_compression"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5ABD8595-9ED9-4626-A339-3E5F97ECB442</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:_the_preset}</string>
+				<key>title</key>
+				<string>Preset selected ✅</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>1EC557CA-45DF-485F-B2D2-E9B611448E07</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>B2ED758E-2C2B-4709-BAF1-2D6A6236303C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>_the_preset</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1D587362-EF39-4930-8AEC-C83A00037F71</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># 🎩 Alfred Smart WebP Compression
+
+✨ *Transform your images into WebP format with ease* ✨
+
+![workflow](./images/workflow.png)
+
+## ✅ Prerequisite
+
+* 🍎 MacOS
+* 🎩 Alfred 5. Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.
+
+## 🧙‍♂️ Invoke the Workflow
+
+You can invoke the workflow by writing `webp` onto the Alfred search box. You can change this value within the workflow [optionnal]. If you'd like to change the value, follow the steps below:
+
+![double_click](./images/double_click.png)
+
+![trigger](./images/trigger.png)
+
+## 🧰 Setup the workflow
+
+Note that all the following commands can be triggered within the workflow 🤓
+
+#### Open the Terminal of you Mac and run the following commands
+
+1. ☑️ Install Homebrew
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+2. ☑️ Install cwebp jq and cpanm
+
+`brew install webp | brew install jq | brew install cpanm`
+
+3. ☑️ Install Mojolicious
+
+`cpanm Mojolicious --sudo`
+ 
+#### Check your installation under the Setup toolbox of the workflow
+
+![toolbox](./images/toolbox_dark_mode.png)
+
+If something is not installed you'll have the following message
+
+![jq_not_installed](./images/jq_not_installed.png)
+
+#### CWebP version can be seen in the home menu.
+
+![cwebp_home_dark_mode](./images/cwebp_home_dark_mode.png)
+
+ The workflow is also looking for cwebp updates each time you run the workflow ✨
+
+![cwebp_update](./images/cwebp_update.png)
+
+## 👷‍♂️ Environment variables
+
+### 📖 Documentation folder
+
+❗ This variable cannot be empty. It's not recommended to change it.
+
+It contains the content of cwebp documentation within Alfred. You can refresh this documentation in the workflow
+
+![refresh_docs](./images/refresh_docs_dark_mode.png)
+
+### 📂 Presets and Logs folder
+
+❗ This variable cannot be empty. You can change it at your convenience.
+
+It contains the presets created within the workflow + output logs of the cwebp compression.
+
+![preset_log_folder](./images/preset_log_folder.png)
+
+### 🖼️ Images folder
+
+⚠️ This variable must be set before running the compression.
+
+This is the target folder where images are placed for the compression. You can change it within the workflow in the home menu.
+
+![image_home_dark_mode](./images/image_home_dark_mode.png)
+
+### ⚒️ Selected Preset
+
+⚠️ This variable must be set before running the compression.
+
+The preset selected preset within the workflow holds all the cwebp [options] used for the compression. The preset selected is shown as the subtitle in the home menu.
+
+![preset_home_dark_mode](./images/preset_home_dark_mode.png)
+
+## 🤖 Usage of the workflow
+
+### 🆕 Create New preset
+
+Go under the preset section and click on "Add a preset"
+
+![add_preset_1](./images/add_preset_1.png)
+
+Add your preset by putting `preset_name,preset_detail`. Note that the comma (`,`) is separating the name of the preset from its content. The content correspond to the cwebp [options] which can be found under the documentation section.
+
+![add_preset_2](./images/add_preset_2.png)
+
+The created preset can be seen under the preset section. New presets are put on top of older ones.
+
+![add_preset_3](./images/add_preset_3.png)
+
+### 👉 Select a preset
+
+Under the preset section, click on a preset to select it.
+
+![select_preset](./images/select_preset.png)
+
+### ✍️ Modify a preset
+
+Under the preset section, click on "Modify a preset".
+
+![modify_preset_1](./images/modify_preset_1.png)
+
+Select the preset you want to modify.
+
+![modify_preset_2](./images/modify_preset_2.png)
+
+Change its name/value and press enter. Don't remove the separator (`,`).
+
+![modify_preset_3](./images/modify_preset_3.png)
+
+### ❌ Remove a preset
+
+Under the preset section, click on "Remove a preset".
+
+![remove_preset_1](./images/remove_preset_1.png)
+
+Select the preset you want to remove.
+
+![remove_preset_2](./images/remove_preset_2.png)
+
+## 🖼️ Modify the images folder
+
+*See also environment variables above* 👆
+
+Select the "Images Folder" under the main menu and search for the new one under Alfred. You can also manually change it under the configuration panel of the workflow.
+
+![img_folder_select](./images/img_folder_select.png)
+
+## 🚀 Start the compression
+
+Once the workflow the preset and the images folder are set correctly, click on "Start the compression" under the home menu.
+
+![start_compress](./images/start_compress.png)
+
+Check the logs of your compression under the 📂 Presets and Logs folder. The log file contains the 2 part. In the orange box there is the {date}, {time}, {var:img_folder} and {var:the_preset}. the output of the terminal is shown under the green box. Each compression is separated by a line.
+
+![log_detail](./images/log_detail.png)</string>
+	<key>uidata</key>
+	<dict>
+		<key>02196C93-1D05-40FE-B21B-513520F9346D</key>
+		<dict>
+			<key>xpos</key>
+			<real>1890</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>04D038F9-4BA3-44DE-9961-74A17474DB6D</key>
+		<dict>
+			<key>xpos</key>
+			<real>960</real>
+			<key>ypos</key>
+			<real>710</real>
+		</dict>
+		<key>0CC2B59D-DDCA-43EF-83D0-4F9E70866E77</key>
+		<dict>
+			<key>note</key>
+			<string>Please submit issues and feature requests at https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>0D2BC16E-A86B-434C-B357-9BA0F382A204</key>
+		<dict>
+			<key>xpos</key>
+			<real>1890</real>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+		<key>154BFBB1-825A-4E5D-A989-907CC91E90B1</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>800</real>
+		</dict>
+		<key>1B42C30F-88AE-47B5-B31D-B8BAF47130F4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>800</real>
+		</dict>
+		<key>1D587362-EF39-4930-8AEC-C83A00037F71</key>
+		<dict>
+			<key>xpos</key>
+			<real>1655</real>
+			<key>ypos</key>
+			<real>1220</real>
+		</dict>
+		<key>1DC28B4A-CE6E-42D7-9870-23191353528A</key>
+		<dict>
+			<key>xpos</key>
+			<real>385</real>
+			<key>ypos</key>
+			<real>1005</real>
+		</dict>
+		<key>1EC557CA-45DF-485F-B2D2-E9B611448E07</key>
+		<dict>
+			<key>xpos</key>
+			<real>2055</real>
+			<key>ypos</key>
+			<real>1190</real>
+		</dict>
+		<key>1F94198E-A0AE-4609-A7AB-18F2EA5BD61E</key>
+		<dict>
+			<key>xpos</key>
+			<real>475</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>303F768B-D7FE-4A18-91F0-0261BD528F2A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>705</real>
+		</dict>
+		<key>30F44CB0-C58D-48C6-B23A-AA81E4A3CD16</key>
+		<dict>
+			<key>xpos</key>
+			<real>810</real>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
+		<key>3249F739-3D81-4D23-9667-C2DD7429B5E8</key>
+		<dict>
+			<key>xpos</key>
+			<real>1575</real>
+			<key>ypos</key>
+			<real>1155</real>
+		</dict>
+		<key>488DDF1E-8133-41BF-8753-0E3BA64EB974</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>49BEB4B9-ED4B-4C09-AD1B-98D642860B6D</key>
+		<dict>
+			<key>xpos</key>
+			<real>685</real>
+			<key>ypos</key>
+			<real>755</real>
+		</dict>
+		<key>522260BF-CEF1-48EF-B0CE-684F4733601A</key>
+		<dict>
+			<key>xpos</key>
+			<real>970</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
+		<key>595747D0-9789-4ECE-B171-19C89A5A5296</key>
+		<dict>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>955</real>
+		</dict>
+		<key>5ABD8595-9ED9-4626-A339-3E5F97ECB442</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>1190</real>
+		</dict>
+		<key>6A8FBE54-FA7D-4A95-8007-8661D0997072</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>845</real>
+		</dict>
+		<key>71E64FC2-2DAA-4FAF-A464-54D8B3567EAC</key>
+		<dict>
+			<key>xpos</key>
+			<real>1890</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>73938F12-DE09-4CE5-B723-3B05299685FE</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>1095</real>
+		</dict>
+		<key>750A55C9-C8A2-49BB-8AB3-7E17DD1FE602</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>970</real>
+		</dict>
+		<key>756748B7-4D28-48DF-BBA9-2EA452BB0611</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>480</real>
+			<key>ypos</key>
+			<real>1095</real>
+		</dict>
+		<key>7EE9CE94-B507-40B3-A060-BC337D689A6E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>816424E4-D414-4244-AACE-55015741C929</key>
+		<dict>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>830</real>
+		</dict>
+		<key>8C61ECE1-9688-4CC2-AD32-0A344DB310A9</key>
+		<dict>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>1095</real>
+		</dict>
+		<key>8DBB0399-4117-43EA-BB62-E8C9B92B16F1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>9026F71A-CC9B-41BA-ACD0-2F1E39DBF2E2</key>
+		<dict>
+			<key>xpos</key>
+			<real>2055</real>
+			<key>ypos</key>
+			<real>550</real>
+		</dict>
+		<key>91898FBD-AF59-44AC-9750-B83CD3A8A694</key>
+		<dict>
+			<key>xpos</key>
+			<real>1420</real>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+		<key>9741013C-6FB7-4382-93A5-C6B81A57CF93</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>550</real>
+		</dict>
+		<key>99F304D7-85C9-481C-B520-9003FD19B70D</key>
+		<dict>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>1080</real>
+		</dict>
+		<key>A555A4F7-613D-4316-B22A-968A6E69CB70</key>
+		<dict>
+			<key>xpos</key>
+			<real>2055</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>A5A2AF5F-E9C4-4398-AD34-4BB96ACD3D06</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>925</real>
+		</dict>
+		<key>A93876C1-0937-4F57-BCC3-5B2964742411</key>
+		<dict>
+			<key>xpos</key>
+			<real>1575</real>
+			<key>ypos</key>
+			<real>1080</real>
+		</dict>
+		<key>AF4D7687-5A37-4236-B166-A78D77CAB6A5</key>
+		<dict>
+			<key>xpos</key>
+			<real>1165</real>
+			<key>ypos</key>
+			<real>405</real>
+		</dict>
+		<key>B0630315-06B0-4A9E-9CAD-54819448B18C</key>
+		<dict>
+			<key>xpos</key>
+			<real>1890</real>
+			<key>ypos</key>
+			<real>800</real>
+		</dict>
+		<key>B2ED758E-2C2B-4709-BAF1-2D6A6236303C</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>1220</real>
+		</dict>
+		<key>B857BE3A-4375-4247-9082-05CDEC4E3BB4</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>550</real>
+		</dict>
+		<key>B884E15A-B55E-46D8-9372-5B3565E9FA28</key>
+		<dict>
+			<key>xpos</key>
+			<real>270</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>C73B8C4E-A0A8-4564-9AF9-7AA8C1DE4A52</key>
+		<dict>
+			<key>xpos</key>
+			<real>2055</real>
+			<key>ypos</key>
+			<real>800</real>
+		</dict>
+		<key>C8333BF6-C873-4B46-A39F-9FDAC8311F9F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+		<key>C8D719F8-DD29-4338-B775-A476F2437FAB</key>
+		<dict>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>580</real>
+		</dict>
+		<key>CA89FD68-A173-4BA5-A981-DB447D2E51D3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>CB9B4DE3-0575-43F8-A28E-3B18C623C590</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>405</real>
+		</dict>
+		<key>CE6A52F7-0196-452F-ACAB-DC1A45F35E0B</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>CE84884F-0D18-4E0D-AA0C-C65A9E52A5F4</key>
+		<dict>
+			<key>xpos</key>
+			<real>2055</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>D0BCADEA-4B48-4681-BF5A-3A99963BCB69</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+		<key>D904832A-634D-4FAD-9DEA-31793271385A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1165</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>E927BA1E-77BB-466D-A594-C260C2CA3651</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>1725</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>F3F45CB5-7506-4071-887D-9E482B8F5CFB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<real>1165</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>F5093F85-53E7-4E65-BECB-DAA22C5B8DD1</key>
+		<dict>
+			<key>xpos</key>
+			<real>660</real>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>FEF31982-CE2C-4D53-A108-2F06FE07A9DD</key>
+		<dict>
+			<key>xpos</key>
+			<real>2055</real>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>~/Library/Application Support/Alfred/Workflow Data/com.benjamino.smart_webp_compression</string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>This folder contains the cwebp documentation.</string>
+			<key>label</key>
+			<string>📖 Documentation folder</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>doc_folder</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>~/Documents/Alfred/Smart_WebP</string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>This folder contains presets and logs of this workflow.</string>
+			<key>label</key>
+			<string>📂 Presets and Logs folder</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>preset_log_folder</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>This folder holds images that needs to be converted. You can modify this value within the wokflow.</string>
+			<key>label</key>
+			<string>🖼️ Images folder</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>img_folder</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+				<key>verticalsize</key>
+				<integer>3</integer>
+			</dict>
+			<key>description</key>
+			<string>Create presets by inputing preset_name,preset_detail and select the one needed for the compression within the workflow.</string>
+			<key>label</key>
+			<string>⚒️ Selected preset</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>the_preset</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
+</dict>
+</plist>
