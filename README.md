@@ -38,15 +38,21 @@ Note that all the following commands can be triggered within the workflow 🤓
 
 1. ☑️ Install Homebrew
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 2. ☑️ Install cwebp jq and cpanm
 
-`brew install webp | brew install jq | brew install cpanm`
+```shell
+brew install webp | brew install jq | brew install cpanm
+```
 
 3. ☑️ Install Mojolicious
 
-`cpanm Mojolicious --sudo`
+```shell
+cpanm Mojolicious --sudo
+```
  
 #### Check your installation under the Setup toolbox of the workflow
 
