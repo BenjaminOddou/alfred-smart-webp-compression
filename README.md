@@ -160,4 +160,4 @@ Check the logs of your compression under the 📂 Presets and Logs folder. The l
 
 ## ⚖️ License
 
-[MIT License](LICENSE) © Benjamin Oddou
+[MIT License](LICENSE.md) © Benjamin Oddou
