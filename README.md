@@ -24,91 +24,63 @@ Welcome to the Alfred Smart WebP Compression repository: **An Alfred Workflowk**
 
 ## 🧙‍♂️ Invoke the Workflow
 
-You can invoke the workflow by writing `webp` onto the Alfred search box. You can change this value within the workflow [optionnal]. If you'd like to change the value, follow the steps below:
-
-![double_click](src/images/double_click.png)
-
-![trigger](src/images/trigger.png)
+You can invoke the workflow by writing `webp` onto the Alfred search box. You can change this value by changing the `🕹️ Workflow trigger` variable in workflow configuration panel [optionnal].
 
 ## 🧰 Setup the workflow
 
-Note that all the following commands can be triggered within the workflow 🤓
+### 👨‍💻 Install dependencies
 
 #### Open the Terminal of you Mac and run the following commands
 
-1. ☑️ Install Homebrew
+1. ☑️ Install Homebrew.
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. ☑️ Install cwebp jq and cpanm
+2. ☑️ Install cwebp and jq.
 
 ```shell
-brew install webp | brew install jq | brew install cpanm
-```
-
-3. ☑️ Install Mojolicious
-
-```shell
-cpanm Mojolicious --sudo
+brew install webp | brew install jq
 ```
  
 #### Check your installation under the Setup toolbox of the workflow
 
 ![toolbox](src/images/toolbox_dark_mode.png)
 
-If something is not installed you'll have the following message
+If something is not installed you'll have the following message :
 
 ![jq_not_installed](src/images/jq_not_installed.png)
 
-#### CWebP version can be seen in the home menu.
+#### CWebP version can be seen in the home menu
 
 ![cwebp_home_dark_mode](src/images/cwebp_home_dark_mode.png)
 
- The workflow is also looking for cwebp updates each time you run the workflow ✨
+✨ The workflow is also checking the cwebp version each time you run it.
 
 ![cwebp_update](src/images/cwebp_update.png)
 
-## 👷‍♂️ Environment variables
+### 📂 Data (Presets and Logs) folder
 
-### 📖 Documentation folder
-
-❗ This variable cannot be empty. It's not recommended to change it.
-
-It contains the content of cwebp documentation within Alfred. You can refresh this documentation in the workflow
-
-![refresh_docs](src/images/refresh_docs_dark_mode.png)
-
-### 📂 Presets and Logs folder
-
-❗ This variable cannot be empty. You can change it at your convenience.
+❗ This variable cannot be empty. You can change it at your convenience in the workflow configuration panel.
 
 It contains the presets created within the workflow + output logs of the cwebp compression.
 
-![preset_log_folder](src/images/preset_log_folder.png)
+> 💡 Note that if you change the `Data folder` location after creating presets and logs, you should probably move the files created along in the new folder.
 
-### 🖼️ Images folder
-
-⚠️ This variable must be set before running the compression.
-
-This is the target folder where images are placed for the compression. You can change it within the workflow in the home menu.
-
-![image_home_dark_mode](src/images/image_home_dark_mode.png)
-
-### ⚒️ Selected Preset
-
-⚠️ This variable must be set before running the compression.
-
-The preset selected preset within the workflow holds all the cwebp [options] used for the compression. The preset selected is shown as the subtitle in the home menu.
-
-![preset_home_dark_mode](src/images/preset_home_dark_mode.png)
+![data_folder](src/images/data_folder.png)
 
 ## 🤖 Usage of the workflow
 
-### 🆕 Create a preset
+### ⚒️ Handling presets
 
-Go under the preset section and click on "Add a preset"
+Go under the home menu and open the `presets section`.
+
+![presets_home_dark_mode](src/images/presets_home_dark_mode.png)
+
+#### Create a preset
+
+Go under the `presets section` and click on "Add a preset".
 
 ![add_preset_1](src/images/add_preset_1.png)
 
@@ -120,15 +92,9 @@ The created preset can be seen under the preset section. New presets are put on 
 
 ![add_preset_3](src/images/add_preset_3.png)
 
-### 👉 Select a preset
+#### Modify a preset
 
-Under the preset section, click on a preset to select it.
-
-![select_preset](src/images/select_preset.png)
-
-### ✍️ Modify a preset
-
-Under the preset section, click on "Modify a preset".
+Under the `presets section`, click on "Modify a preset".
 
 ![modify_preset_1](src/images/modify_preset_1.png)
 
@@ -136,13 +102,13 @@ Select the preset you want to modify.
 
 ![modify_preset_2](src/images/modify_preset_2.png)
 
-Change its name/value and press enter. Don't remove the separator (`,`).
+Change its name/value and press enter ⏎. Don't remove the separator (`,`).
 
 ![modify_preset_3](src/images/modify_preset_3.png)
 
-### ❌ Remove a preset
+#### Remove a preset
 
-Under the preset section, click on "Remove a preset".
+Under the `presets section`, click on "Remove a preset".
 
 ![remove_preset_1](src/images/remove_preset_1.png)
 
@@ -150,24 +116,77 @@ Select the preset you want to remove.
 
 ![remove_preset_2](src/images/remove_preset_2.png)
 
-## 🖼️ Modify the images folder
+### 📖 Check the documentation
 
-*See also environment variables above* 👆
+Go under the `documentation section` from the home menu :
 
-Select the "Images Folder" under the main menu and search for the new one under Alfred. You can also manually change it under the configuration panel of the workflow.
+![docs_home_dark_mode](src/images/docs_home_dark_mode.png)
 
-![img_folder_select](src/images/img_folder_select.png)
+Go to the online documentation or click on one of the options to copy it !
 
-## 🚀 Start the compression
+![docs_detail](src/images/docs_detail.png)
 
-Once the preset and the images folder are set correctly, click on "Start the compression" under the home menu.
+### 🚀 Start the compression
+
+#### Using Workflow File Filter
+
+Under the home menu, click on "Start the compression".
 
 ![start_compress](src/images/start_compress.png)
 
-Check the logs of your compression under the 📂 Presets and Logs folder. The log file contains the 2 part. In the orange box there is the {date}, {time}, {var:img_folder} and {var:the_preset}. the output of the terminal is shown under the green box. Each compression is separated by a line.
+Select the folder with images or directly the image you want to compress and press enter ⏎.
+
+> 💡 Note that when selecting a folder, images within subdirectories aren't selected. Only images with `png|jpg|jpeg|tif|tiff|webp` file extensions are selected. In addition, they aren't case sensitive, meaning that the image extension can be `PNG|JpG|tifF...`
+
+![direct_compress](src/images/direct_compress.png)
+
+Alternatively, use the `Alfred Buffer` to select folder(s) and image(s) at the same time !! Basic commands are :
+
+* ⌥↑ to add a file to the buffer from Alfred's results.
+* ⌥↓ to add a file and move to the next item in your list of results.
+* ⌥← to remove the last item from the buffer.
+* ⌥→ to action all items in the buffer.
+* ⌥⌫ to remove all items from the buffer.
+
+To know more on how to use `Alfred Buffer`, follow this [link](https://www.alfredapp.com/help/features/file-search/#file-buffer).
+
+> 💡 Note that `Alfred Buffer` is preferred compare to the `{query}`, meaning that if you select a folder/image (by clicking on it or by pressing enter ⏎) that is not included in the buffer, **it will not be compressed**.
+
+![alfred_buffer](src/images/alfred_buffer.png)
+
+Choose the cwebp options by selecting a preset or input it manually by pressing "Manual options".
+
+![choice_options](src/images/choice_options.png)
+
+Check the logs of the compression. To know more on how to read logs, see the `Logs output` section below. 
+
+#### Using Alfred Universal Actions
+
+Select the folder(s) / image(s) you want to compress within alfred using `Quick Search` and run `Universal Actions` with → or ⌥→ if you used the `Alfred buffer`. Select "Compress images to WebP".
+
+![universal_action](src/images/universal_action.png)
+
+> 💡 Note that the workflow is type sensitive, meaning that if you select a file that is not part of the following types, the action "Compress images to WebP" will not be available
+
+![types](src/images/types.png)
+
+If you want to know more on how to use Alfred Universal Actions, follow this [link](https://www.alfredapp.com/help/features/universal-actions/).
+
+#### Logs output
+
+Check the logs of your compression under the `Data folder`. The log file contains the 2 part. 
+
+1. In the orange box there is :
+	* `{date:short}` : Date of the compression with a `yyyy/MM/dd` pattern.
+	* `{time}` : Exact time of the compression with a `HH:mm:ss` pattern.
+	* `user input : {var:_links_list}` : Folder(s) + image(s) path(s) selected with a tab ⇥ separator.
+	* `cwebp options : {var:_the_preset}` : Preset or manual input. Preset will be displayed as `preset_name,preset_detail` whereas manual input will be displayed raw.
+2. In the green box there is the `{query}` which correspond to cwebp output.
+
+> 💡 Note that each compression is separated by a line.
 
 ![log_detail](src/images/log_detail.png)
 
 ## ⚖️ License
 
-[MIT License](LICENSE.md) © Benjamin Oddou
+[MIT License](LICENSE) © Benjamin Oddou

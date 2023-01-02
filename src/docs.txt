@@ -1,0 +1,470 @@
+{
+  "uid": "-o string",
+  "title": "-o string",
+  "subtitle": "Specify the name of the output WebP file. If omitted, cwebp will perform compression but only report statistics. Using \"-\" as output name will direct output to 'stdout'.",
+  "arg": "-o string",
+  "autocomplete": "-o string",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-- string",
+  "title": "-- string",
+  "subtitle": "Explicitly specify the input file. This option is useful if the input file starts with an '-' for instance. This option must appear last. Any other options afterward will be ignored.",
+  "arg": "-- string",
+  "autocomplete": "-- string",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-h, -help",
+  "title": "-h, -help",
+  "subtitle": "A short usage summary.",
+  "arg": "-h, -help",
+  "autocomplete": "-h, -help",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-H, -longhelp",
+  "title": "-H, -longhelp",
+  "subtitle": "A summary of all the possible options.",
+  "arg": "-H, -longhelp",
+  "autocomplete": "-H, -longhelp",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-version",
+  "title": "-version",
+  "subtitle": "Print the version number (as major.minor.revision) and exit.",
+  "arg": "-version",
+  "autocomplete": "-version",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-lossless",
+  "title": "-lossless",
+  "subtitle": "Encode the image without any loss. For images with fully transparent area, the invisible pixel values (R/G/B or Y/U/V) will be preserved only if the -exact option is used.",
+  "arg": "-lossless",
+  "autocomplete": "-lossless",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-near_lossless int",
+  "title": "-near_lossless int",
+  "subtitle": "Specify the level of near-lossless image preprocessing. This option adjusts pixel values to help compressibility, but has minimal impact on the visual quality. It triggers lossless compression mode automatically. The range is 0 (maximum preprocessing) to 100 (no preprocessing, the default). The typical value is around 60. Note that lossy with -q 100 can at times yield better results.",
+  "arg": "-near_lossless int",
+  "autocomplete": "-near_lossless int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-q float",
+  "title": "-q float",
+  "subtitle": "Specify the compression factor for RGB channels between 0 and 100. The default is 75. In case of lossy compression (default), a small factor produces a smaller file with lower quality. Best quality is achieved by using a value of 100. In case of lossless compression (specified by the -lossless option), a small factor enables faster compression speed, but produces a larger file. Maximum compression is achieved by using a value of 100.",
+  "arg": "-q float",
+  "autocomplete": "-q float",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-z int",
+  "title": "-z int",
+  "subtitle": "Switch on lossless compression mode with the specified level between 0 and 9, with level 0 being the fastest, 9 being the slowest. Fast mode produces larger file size than slower ones. A good default is -z 6. This option is actually a shortcut for some predefined settings for quality and method. If options -q or -m are subsequently used, they will invalidate the effect of this option.",
+  "arg": "-z int",
+  "autocomplete": "-z int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-alpha_q int",
+  "title": "-alpha_q int",
+  "subtitle": "Specify the compression factor for alpha compression between 0 and 100. Lossless compression of alpha is achieved using a value of 100, while the lower values result in a lossy compression. The default is 100.",
+  "arg": "-alpha_q int",
+  "autocomplete": "-alpha_q int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-preset string",
+  "title": "-preset string",
+  "subtitle": "Specify a set of pre-defined parameters to suit a particular type of source material. Possible values are: default, photo, picture, drawing, icon, text. Since -preset overwrites the other parameters' values (except the -q one), this option should preferably appear first in the order of the arguments.",
+  "arg": "-preset string",
+  "autocomplete": "-preset string",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-m int",
+  "title": "-m int",
+  "subtitle": "Specify the compression method to use. This parameter controls the trade off between encoding speed and the compressed file size and quality. Possible values range from 0 to 6. Default value is 4. When higher values are used, the encoder will spend more time inspecting additional encoding possibilities and decide on the quality gain. Lower value can result in faster processing time at the expense of larger file size and lower compression quality.",
+  "arg": "-m int",
+  "autocomplete": "-m int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-crop x_position y_position width height",
+  "title": "-crop x_position y_position width height",
+  "subtitle": "Crop the source to a rectangle with top-left corner at coordinates (x_position, y_position) and size width x height. This cropping area must be fully contained within the source rectangle. Note: the cropping is applied before any scaling.",
+  "arg": "-crop x_position y_position width height",
+  "autocomplete": "-crop x_position y_position width height",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-resize width height",
+  "title": "-resize width height",
+  "subtitle": "Resize the source to a rectangle with size width x height. If either (but not both) of the width or height parameters is 0, the value will be calculated preserving the aspect-ratio. Note: scaling is applied after cropping.",
+  "arg": "-resize width height",
+  "autocomplete": "-resize width height",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-mt",
+  "title": "-mt",
+  "subtitle": "Use multi-threading for encoding, if possible.",
+  "arg": "-mt",
+  "autocomplete": "-mt",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-low_memory",
+  "title": "-low_memory",
+  "subtitle": "Reduce memory usage of lossy encoding by saving four times the compressed size (typically). This will make the encoding slower and the output slightly different in size and distortion. This flag is only effective for methods 3 and up, and is off by default. Note that leaving this flag off will have some side effects on the bitstream: it forces certain bitstream features like number of partitions (forced to 1). Note that a more detailed report of bitstream size is printed by cwebp when using this option.",
+  "arg": "-low_memory",
+  "autocomplete": "-low_memory",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-size int",
+  "title": "-size int",
+  "subtitle": "Specify a target size (in bytes) to try and reach for the compressed output. The compressor will make several passes of partial encoding in order to get as close as possible to this target. If both -size and -psnr are used, -size value will prevail.",
+  "arg": "-size int",
+  "autocomplete": "-size int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-psnr float",
+  "title": "-psnr float",
+  "subtitle": "Specify a target PSNR (in dB) to try and reach for the compressed output. The compressor will make several passes of partial encoding in order to get as close as possible to this target. If both -size and -psnr are used, -size value will prevail.",
+  "arg": "-psnr float",
+  "autocomplete": "-psnr float",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-pass int",
+  "title": "-pass int",
+  "subtitle": "Set a maximum number of passes to use during the dichotomy used by options -size or -psnr. Maximum value is 10, default is 1. If options -size or -psnr were used, but -pass wasn't specified, a default value of '6' passes will be used.",
+  "arg": "-pass int",
+  "autocomplete": "-pass int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-af",
+  "title": "-af",
+  "subtitle": "Turns auto-filter on. This algorithm will spend additional time optimizing the filtering strength to reach a well-balanced quality.",
+  "arg": "-af",
+  "autocomplete": "-af",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-jpeg_like",
+  "title": "-jpeg_like",
+  "subtitle": "Change the internal parameter mapping to better match the expected size of JPEG compression. This flag will generally produce an output file of similar size to its JPEG equivalent (for the same -q setting), but with less visual distortion.",
+  "arg": "-jpeg_like",
+  "autocomplete": "-jpeg_like",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-f int",
+  "title": "-f int",
+  "subtitle": "Specify the strength of the deblocking filter, between 0 (no filtering) and 100 (maximum filtering). A value of 0 will turn off any filtering. Higher value will increase the strength of the filtering process applied after decoding the picture. The higher the value the smoother the picture will appear. Typical values are usually in the range of 20 to 50.",
+  "arg": "-f int",
+  "autocomplete": "-f int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-sharpness int",
+  "title": "-sharpness int",
+  "subtitle": "Specify the sharpness of the filtering (if used). Range is 0 (sharpest) to 7 (least sharp). Default is 0.",
+  "arg": "-sharpness int",
+  "autocomplete": "-sharpness int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-strong",
+  "title": "-strong",
+  "subtitle": "Use strong filtering (if filtering is being used thanks to the -f option). Strong filtering is on by default.",
+  "arg": "-strong",
+  "autocomplete": "-strong",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-nostrong",
+  "title": "-nostrong",
+  "subtitle": "Disable strong filtering (if filtering is being used thanks to the -f option) and use simple filtering instead.",
+  "arg": "-nostrong",
+  "autocomplete": "-nostrong",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-sharp_yuv",
+  "title": "-sharp_yuv",
+  "subtitle": "Use more accurate and sharper RGB->YUV conversion if needed. Note that this process is slower than the default 'fast' RGB->YUV conversion.",
+  "arg": "-sharp_yuv",
+  "autocomplete": "-sharp_yuv",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-sns int",
+  "title": "-sns int",
+  "subtitle": "Specify the amplitude of the spatial noise shaping. Spatial noise shaping (or sns for short) refers to a general collection of built-in algorithms used to decide which area of the picture should use relatively less bits, and where else to better transfer these bits. The possible range goes from 0 (algorithm is off) to 100 (the maximal effect). The default value is 50.",
+  "arg": "-sns int",
+  "autocomplete": "-sns int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-segments int",
+  "title": "-segments int",
+  "subtitle": "Change the number of partitions to use during the segmentation of the sns algorithm. Segments should be in range 1 to 4. Default value is 4. This option has no effect for methods 3 and up, unless -low_memory is used.",
+  "arg": "-segments int",
+  "autocomplete": "-segments int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-partition_limit int",
+  "title": "-partition_limit int",
+  "subtitle": "Degrade quality by limiting the number of bits used by some macroblocks. Range is 0 (no degradation, the default) to 100 (full degradation). Useful values are usually around 30-70 for moderately large images. In the VP8 format, the so-called control partition has a limit of 512k and is used to store the following information: whether the macroblock is skipped, which segment it belongs to, whether it is coded as intra 4x4 or intra 16x16 mode, and finally the prediction modes to use for each of the sub-blocks. For a very large image, 512k only leaves room to few bits per 16x16 macroblock. The absolute minimum is 4 bits per macroblock. Skip, segment, and mode information can use up almost all these 4 bits (although the case is unlikely), which is problematic for very large images. The partition_limit factor controls how frequently the most bit-costly mode (intra 4x4) will be used. This is useful in case the 512k limit is reached and the following message is displayed: Error code: 6 (PARTITION0_OVERFLOW: Partition #0 is too big to fit 512k). If using -partition_limit is not enough to meet the 512k constraint, one should use less segments in order to save more header bits per macroblock. See the -segments option.",
+  "arg": "-partition_limit int",
+  "autocomplete": "-partition_limit int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-v",
+  "title": "-v",
+  "subtitle": "Print extra information (encoding time in particular).",
+  "arg": "-v",
+  "autocomplete": "-v",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-print_psnr",
+  "title": "-print_psnr",
+  "subtitle": "Compute and report average PSNR (Peak-Signal-To-Noise ratio).",
+  "arg": "-print_psnr",
+  "autocomplete": "-print_psnr",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-print_ssim",
+  "title": "-print_ssim",
+  "subtitle": "Compute and report average SSIM (structural similarity metric, see https://en.wikipedia.org/wiki/SSIM for additional details).",
+  "arg": "-print_ssim",
+  "autocomplete": "-print_ssim",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-print_lsim",
+  "title": "-print_lsim",
+  "subtitle": "Compute and report local similarity metric (sum of lowest error amongst the collocated pixel neighbors).",
+  "arg": "-print_lsim",
+  "autocomplete": "-print_lsim",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-progress",
+  "title": "-progress",
+  "subtitle": "Report encoding progress in percent.",
+  "arg": "-progress",
+  "autocomplete": "-progress",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-quiet",
+  "title": "-quiet",
+  "subtitle": "Do not print anything.",
+  "arg": "-quiet",
+  "autocomplete": "-quiet",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-short",
+  "title": "-short",
+  "subtitle": "Only print brief information (output file size and PSNR) for testing purposes.",
+  "arg": "-short",
+  "autocomplete": "-short",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-map int",
+  "title": "-map int",
+  "subtitle": "Output additional ASCII-map of encoding information. Possible map values range from 1 to 6. This is only meant to help debugging.",
+  "arg": "-map int",
+  "autocomplete": "-map int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-s width height",
+  "title": "-s width height",
+  "subtitle": "Specify that the input file actually consists of raw Y'CbCr samples following the ITU-R BT.601 recommendation, in 4:2:0 linear format. The luma plane has size width x height.",
+  "arg": "-s width height",
+  "autocomplete": "-s width height",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-pre int",
+  "title": "-pre int",
+  "subtitle": "Specify some pre-processing steps. Using a value of 2 will trigger quality-dependent pseudo-random dithering during RGBA->YUVA conversion (lossy compression only).",
+  "arg": "-pre int",
+  "autocomplete": "-pre int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-alpha_filter string",
+  "title": "-alpha_filter string",
+  "subtitle": "Specify the predictive filtering method for the alpha plane. One of none, fast or best, in increasing complexity and slowness order. Default is fast. Internally, alpha filtering is performed using four possible predictions (none, horizontal, vertical, gradient). The best mode will try each mode in turn and pick the one which gives the smaller size. The fast mode will just try to form an a priori guess without testing all modes.",
+  "arg": "-alpha_filter string",
+  "autocomplete": "-alpha_filter string",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-alpha_method int",
+  "title": "-alpha_method int",
+  "subtitle": "Specify the algorithm used for alpha compression: 0 or 1. Algorithm 0 denotes no compression, 1 uses WebP lossless format for compression. The default is 1.",
+  "arg": "-alpha_method int",
+  "autocomplete": "-alpha_method int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-exact",
+  "title": "-exact",
+  "subtitle": "Preserve RGB values in transparent area. The default is off, to help compressibility.",
+  "arg": "-exact",
+  "autocomplete": "-exact",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-blend_alpha int",
+  "title": "-blend_alpha int",
+  "subtitle": "This option blends the alpha channel (if present) with the source using the background color specified in hexadecimal as 0xrrggbb. The alpha channel is afterward reset to the opaque value 255.",
+  "arg": "-blend_alpha int",
+  "autocomplete": "-blend_alpha int",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-noalpha",
+  "title": "-noalpha",
+  "subtitle": "Using this option will discard the alpha channel.",
+  "arg": "-noalpha",
+  "autocomplete": "-noalpha",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-hint string",
+  "title": "-hint string",
+  "subtitle": "Specify the hint about input image type. Possible values are: photo, picture or graph.",
+  "arg": "-hint string",
+  "autocomplete": "-hint string",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-metadata string",
+  "title": "-metadata string",
+  "subtitle": "A comma separated list of metadata to copy from the input to the output if present. Valid values: all, none, exif, icc, xmp. The default is none. Note that each input format may not support all combinations.",
+  "arg": "-metadata string",
+  "autocomplete": "-metadata string",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
+{
+  "uid": "-noasm",
+  "title": "-noasm",
+  "subtitle": "Disable all assembly optimizations.",
+  "arg": "-noasm",
+  "autocomplete": "-noasm",
+  "icon": {
+    "path": "page-icon.png"
+  }
+}
