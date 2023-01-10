@@ -1,10 +1,10 @@
 <img src="public/icon_dark_mode.png#gh-dark-mode-only" alt="logo-dark" height="55"/>
 <img src="public/icon_light_mode.png#gh-light-mode-only" alt="logo-light" height="55"/>
 
-[![made with hearth by Benjamin Oddou](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-benjamin%20oddou-f4bd41.svg?style=flat)](https://github.com/BenjaminOddou)
-[![saythanks](https://img.shields.io/badge/say-thanks-add19c.svg?style=flat)](https://saythanks.io/to/BenjaminOddou)
+[![made with hearth by Benjamin Oddou](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-benjamin%20oddou-62D895.svg?style=flat)](https://github.com/BenjaminOddou)
+[![saythanks](https://img.shields.io/badge/say-thanks-469C2C.svg?style=flat)](https://saythanks.io/to/BenjaminOddou)
 
-Welcome to the Alfred Smart WebP Compression repository: **An Alfred Workflowk** ✨
+Welcome to the Alfred Smart WebP repository: **An Alfred Workflowk** ✨
 
 ## ✅ Prerequisite
 
@@ -177,8 +177,8 @@ If you want to know more on how to use Alfred Universal Actions, follow this [li
 Check the logs of your compression under the `Data folder`. The log file contains the 2 part. 
 
 1. In the orange box there is :
-	* `{date:short}` : Date of the compression with a `yyyy/MM/dd` pattern.
-	* `{time}` : Exact time of the compression with a `HH:mm:ss` pattern.
+	* `{date:YYYY/MM/dd}` : Date of the compression with a `YYYY/MM/dd` pattern.
+	* `{time:HH:mm:ss}` : Exact time of the compression with a `HH:mm:ss` pattern.
 	* `user input : {var:_links_list}` : Folder(s) + image(s) path(s) selected with a tab ⇥ separator.
 	* `cwebp options : {var:_the_preset}` : Preset or manual input. Preset will be displayed as `preset_name,preset_detail` whereas manual input will be displayed raw.
 2. In the green box there is the `{query}` which correspond to cwebp output.

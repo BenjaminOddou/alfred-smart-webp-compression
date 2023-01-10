@@ -578,13 +578,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Benjamin ODDOU</string>
+	<string>Benjamin Oddou</string>
 	<key>description</key>
 	<string>🧙‍♂️ Transform your images into WebP format with ease</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Smart WebP Compression</string>
+	<string>Smart WebP</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -2148,7 +2148,7 @@ done</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># 🎩 Alfred Smart WebP Compression
+	<string># 🎩 Alfred Smart WebP
 
 ✨ *Transform your images into WebP format with ease* ✨
 
@@ -2314,15 +2314,17 @@ If you want to know more on how to use Alfred Universal Actions, follow this [li
 Check the logs of your compression under the `Data folder`. The log file contains the 2 part. 
 
 1. In the orange box there is :
-	* `{date:short}` : Date of the compression with a `yyyy/MM/dd` pattern.
-	* `{time}` : Exact time of the compression with a `HH:mm:ss` pattern.
+	* `{date:YYYY/MM/dd}` : Date of the compression with a `YYYY/MM/dd` pattern.
+	* `{time:HH:mm:ss}` : Exact time of the compression with a `HH:mm:ss` pattern.
 	* `user input : {var:_links_list}` : Folder(s) + image(s) path(s) selected with a tab ⇥ separator.
 	* `cwebp options : {var:_the_preset}` : Preset or manual input. Preset will be displayed as `preset_name,preset_detail` whereas manual input will be displayed raw.
 2. In the green box there is the `{query}` which correspond to cwebp output.
 
 💡 Note that each compression is separated by a line.
 
-![log_detail](./images/log_detail.png)</string>
+![log_detail](./images/log_detail.png)
+
+© Benjamin Oddou</string>
 	<key>uidata</key>
 	<dict>
 		<key>04D038F9-4BA3-44DE-9961-74A17474DB6D</key>
@@ -2685,7 +2687,7 @@ Check the logs of your compression under the `Data folder`. The log file contain
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
 </dict>
