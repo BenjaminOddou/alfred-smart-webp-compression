@@ -151,6 +151,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>36FF274D-C763-4958-A7A5-607D948D7E6E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>46F04E7C-DA87-4753-BDE6-E0BD934AEC90</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0772B13-46E4-4B82-9F55-7E1454E9D3AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3E2FD780-20D4-4517-A4C7-3AB654D065CA</key>
 		<array>
 			<dict>
@@ -193,7 +216,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A0772B13-46E4-4B82-9F55-7E1454E9D3AB</string>
+				<string>36FF274D-C763-4958-A7A5-607D948D7E6E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -231,7 +254,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A0772B13-46E4-4B82-9F55-7E1454E9D3AB</string>
+				<string>36FF274D-C763-4958-A7A5-607D948D7E6E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -590,27 +613,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://developers.google.com/speed/webp/docs/cwebp</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D904832A-634D-4FAD-9DEA-31793271385A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -634,50 +636,7 @@
 				<key>runningsubtext</key>
 				<string>Checking versions...</string>
 				<key>script</key>
-				<string>#!/bin/bash
-packages=( "jq" )
-c=0
-
-if [[ $(brew --version | sed 1q) != "command not found: brew" ]]
-then
- brewv="$(brew --version | sed 1q) ✅"
-  for i in "${packages[@]}"
-  do
-    if [[ "$(command -v ${i})" != "" ]]
-    then 
-      package[c++]="$(brew list --versions ${i}) ✅"
-    else
-      package[c++]="${i} is not installed 🚧 | It needs Homebrew to be installed ⚠️"
-    fi
-  done
-else
-  brewv="Hombrew is not installed 🚧"
-fi
-
-cat &lt;&lt; EOB
-{
-"items": [
-   {
-    "title": "Homebrew",
-    "subtitle": "${brewv}",
-    "arg": "brew",
-    "autocomplete": "Homebrew",
-    "icon": {
-        "path": "homebrew-icon.png"
-      }
-    },
-    {
-    "title": "Jq",
-    "subtitle": "${package[0]}",
-    "arg": "jq",
-    "autocomplete": "Jq",
-    "icon": {
-        "path": "jq-icon.png"
-      }
-    }
-  ]
-}
-EOB</string>
+				<string>./toolbox.sh</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -687,7 +646,7 @@ EOB</string>
 				<key>title</key>
 				<string>Setup toolbox</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -704,6 +663,27 @@ EOB</string>
 			<string>1F94198E-A0AE-4609-A7AB-18F2EA5BD61E</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://developers.google.com/speed/webp/docs/cwebp</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D904832A-634D-4FAD-9DEA-31793271385A</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -807,101 +787,17 @@ EOB</string>
 				<key>runningsubtext</key>
 				<string>Initialisation...</string>
 				<key>script</key>
-				<string>#!/bin/bash
-setup_tools=( "brew" "jq" )
-
-for i in "${setup_tools[@]}"
-do
-  if [[ "$(command -v ${i})" == "" ]]
-  then 
-    status="Cannot check cwebp version -&gt; go to the setup toolbox and check Homebrew and jq installation 🚧"
-    break
-  fi
-  if [[ "${i}" == "jq" &amp;&amp; "$(command -v cwebp)" != "" ]]
-  then
-    online_version="$(curl -s https://formulae.brew.sh/api/formula/webp.json | jq -r '.versions.stable')"
-    local_version="$(cwebp -version | sed -n '1p')"
-
-    if [[ "${online_version}" == "${local_version}" ]]
-    then
-      status="cwebp is up to date ✅ | $local_version"
-    elif [[ "$local_version" != "" ]]
-    then
-      status="Update available ✨ | $local_version to $online_version"
-    fi
-  else
-    status="cwebp is not installed ❌ | It needs Homebrew to be installed ⚠️"
-  fi
-done
-
-if [[ "${the_preset}" != "" ]]
-then
- preset_s="$(echo "${the_preset}" | sed 's/,/ | /') ✅"
-else
- preset_s="No preset selected ❌"
-fi
-
-cat &lt;&lt; EOB
-{
-"items": [
-   {
-    "title": "Start the compression",
-    "subtitle": "Run the cwebp compression with your parameters",
-    "arg": "compress",
-    "autocomplete": "Start the compression",
-    "icon": {
-        "path": "rocket-icon.png"
-      }
-    },
-   {
-    "title": "Presets",
-    "subtitle": "Create, modify or remove presets",
-    "arg": "presets",
-    "autocomplete": "Presets",
-    "icon": {
-        "path": "30F44CB0-C58D-48C6-B23A-AA81E4A3CD16.png"
-      }
-    },
-   {
-    "title": "CWebP documentation",
-    "subtitle": "Show cwebp documentation",
-    "arg": "doc",
-    "autocomplete": "CWebP documentation",
-    "icon": {
-        "path": "CB9B4DE3-0575-43F8-A28E-3B18C623C590.png"
-      }
-    },
-   {
-    "title": "CWebP version",
-    "subtitle": "${status}",
-    "arg": "webp",
-    "autocomplete": "CWebP version",
-    "icon": {
-        "path": "webp-icon.png"
-      }
-    },
-    {
-    "title": "Setup toolbox",
-    "subtitle": "All tools needed for the workflow",
-    "arg": "tools",
-    "autocomplete": "Setup toolbox",
-    "icon": {
-        "path": "1F94198E-A0AE-4609-A7AB-18F2EA5BD61E.png"
-      }
-    }
-  ]
-}
-EOB</string>
+				<string>./menu.sh</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>menu.sh</string>
 				<key>subtext</key>
 				<string>Convert images in a folder to WebP format easily</string>
 				<key>title</key>
 				<string>Smart WebP Compression</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -938,19 +834,9 @@ EOB</string>
 				<key>runningsubtext</key>
 				<string>Loading Documentation...</string>
 				<key>script</key>
-				<string>#!/bin/bash
-raw='
-{"uid":"Online documention","title":"Online documention","subtitle":"Open online cwebp documentation","arg":"online","autocomplete":"Online documention","icon":{"path":"globe-icon.png"}}
-'
-doc_json=$(jq '.' ./docs.txt)
-temp=$(echo "$raw$doc_json")
-final=$(jq -s '{items : .}' &lt;&lt;&lt; $temp)
-
-cat &lt;&lt; EOB
-${final}
-EOB</string>
+				<string>./filters.sh "docs"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -1103,16 +989,13 @@ EOB</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>#!/bin/bash
-preset="{query}"
-
-jq -R 'split(",") | {title: .[0], subtitle: .[1], arg: (.[0] + "," + .[1]), autocomplete: .[0], icon:{path:"preset-icon.png"}}' &lt;&lt;&lt; "${preset}"</string>
+				<string>./presets.sh "new" $1</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -1255,19 +1138,7 @@ jq -R 'split(",") | {title: .[0], subtitle: .[1], arg: (.[0] + "," + .[1]), auto
 				<key>runningsubtext</key>
 				<string>Loading Presets...</string>
 				<key>script</key>
-				<string>#!/bin/bash
-raw='
-{"title":"Add a preset","subtitle":"Create a new preset and save it in Alfred app","arg":"new","autocomplete":"Add a preset","icon":{"path":"CE6A52F7-0196-452F-ACAB-DC1A45F35E0B.png"}}
-{"title":"Remove a preset","subtitle":"Select the preset you want to remove and press enter","arg":"delete","autocomplete":"Remove a preset","icon":{"path":"154BFBB1-825A-4E5D-A989-907CC91E90B1.png"}}
-{"title":"Modify a preset","subtitle":"Select the preset you want to modify and change its value","arg":"modify","autocomplete":"Modify a preset","icon":{"path":"D0BCADEA-4B48-4681-BF5A-3A99963BCB69.png"}}
-'
-presets=$(jq '.' ${data_folder}/presets.txt)
-temp=$(echo "$raw$presets")
-final=$(jq -s '{items : .}' &lt;&lt;&lt; $temp)
-
-cat &lt;&lt; EOB
-${final}
-EOB</string>
+				<string>./filters.sh "presets_menu"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1277,7 +1148,7 @@ EOB</string>
 				<key>title</key>
 				<string>Presets for compression</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -1330,20 +1201,13 @@ EOB</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>#!/bin/bash
-arg="{query}"
-
-dirty=$(jq --arg key "$arg" 'del(select(.arg == $key))' ${data_folder}/presets.txt)
-
-clean=$(echo $dirty | sed 's/null//')
-
-jq '.' &lt;&lt;&lt; "${clean}"</string>
+				<string>./presets.sh "delete" $1</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -1399,12 +1263,7 @@ jq '.' &lt;&lt;&lt; "${clean}"</string>
 				<key>runningsubtext</key>
 				<string>Loading Presets...</string>
 				<key>script</key>
-				<string>#!/bin/bash
-presets=$(jq -s '{items : .}' ${data_folder}/presets.txt)
-
-cat &lt;&lt; EOB
-${presets}
-EOB</string>
+				<string>./filters.sh "presets"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1414,7 +1273,7 @@ EOB</string>
 				<key>title</key>
 				<string>Remove a preset</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -1509,18 +1368,13 @@ EOB</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>#!/bin/bash
-old_preset="${_old_preset}"
-temp_new_preset="{query}"
-new_preset=$(jq -R 'split(",") | {title: .[0], subtitle: .[1], arg: (.[0] + "," + .[1]), autocomplete: .[0], icon:{path:"preset-icon.png"}}' &lt;&lt;&lt; "${temp_new_preset}")
-
-jq --arg key1 "$old_preset" --argjson key2 "$new_preset" 'select(.arg == $key1) |= $key2' "${data_folder}/presets.txt"</string>
+				<string>./presets.sh "modify" $1</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -1574,12 +1428,7 @@ jq --arg key1 "$old_preset" --argjson key2 "$new_preset" 'select(.arg == $key1) 
 				<key>runningsubtext</key>
 				<string>Loading Presets...</string>
 				<key>script</key>
-				<string>#!/bin/bash
-presets=$(jq -s '{items : .}' ${data_folder}/presets.txt)
-
-cat &lt;&lt; EOB
-${presets}
-EOB</string>
+				<string>./filters.sh "presets"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1589,7 +1438,7 @@ EOB</string>
 				<key>title</key>
 				<string>Modify a preset</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -1651,6 +1500,27 @@ EOB</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>the workflow is running, please wait till the end.</string>
+				<key>title</key>
+				<string>Compressing images... ⏳</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>46F04E7C-DA87-4753-BDE6-E0BD934AEC90</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
@@ -1700,17 +1570,7 @@ EOB</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>#!/bin/bash
-raw='
-{"title":"Manual options","subtitle":"Run the cwebp compression with your manual input","arg":"manual","autocomplete":"Manual options","icon":{"path":"36746137-2858-4981-968C-2DDC0B19B7E8.png"}}
-'
-presets=$(jq '.' ${data_folder}/presets.txt)
-temp=$(echo "$raw$presets")
-final=$(jq -s '{items : .}' &lt;&lt;&lt; $temp)
-
-cat &lt;&lt; EOB
-${final}
-EOB</string>
+				<string>./filters.sh "presets_options"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1720,7 +1580,7 @@ EOB</string>
 				<key>title</key>
 				<string>Select a preset or input your options</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -1737,6 +1597,26 @@ EOB</string>
 			<string>3E7A5A98-8BE4-4FE9-AC90-4DD898D1AF45</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>_the_preset</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4E7EBAA0-241E-45D4-8BF4-D8DD2B14C7B5</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1845,22 +1725,10 @@ EOB</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>_the_preset</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
-			<string>4E7EBAA0-241E-45D4-8BF4-D8DD2B14C7B5</string>
+			<string>36FF274D-C763-4958-A7A5-607D948D7E6E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1984,7 +1852,6 @@ EOB</string>
 {time:HH:mm:ss}
 user input : {var:_links_list}
 cwebp options : {var:_the_preset}
-
 {query}
 ______________________
 </string>
@@ -1993,7 +1860,7 @@ ______________________
 				<key>relativepathmode</key>
 				<integer>0</integer>
 				<key>type</key>
-				<integer>2</integer>
+				<integer>3</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.writefile</string>
@@ -2010,29 +1877,13 @@ ______________________
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>#!/bin/bash
-RAW=( $_links_list )
-IMAGES=()
-PARAMS="{query}"
-
-for LINK in "${RAW[@]}"; do
-  if [[ -d "${LINK}" ]]
-  then
-    IMAGES+=("$(find -E "${LINK}" /dev -maxdepth 1 -iregex '.*\.(png|jpg|jpeg|tif|tiff|webp)')")
-  else
-    IMAGES+=("${LINK}")
-  fi
-done
-
-for IMAGE in "${IMAGES[@]}"; do
-  2&gt;&amp;1 cwebp eval " ${PARAMS}" "${IMAGE}" -o "${IMAGE%.*}.webp"
-done</string>
+				<string>./compress.sh</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -2059,6 +1910,29 @@ done</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>73938F12-DE09-4CE5-B723-3B05299685FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>1</integer>
+				<key>filetypes</key>
+				<array>
+					<string>org.webmproject.webp</string>
+					<string>public.folder</string>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+					<string>public.tiff</string>
+				</array>
+				<key>name</key>
+				<string>Compress images to WebP</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>DDFB0521-4230-42EE-9FEA-C57F71CDBA82</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2106,29 +1980,6 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
-				<integer>1</integer>
-				<key>filetypes</key>
-				<array>
-					<string>org.webmproject.webp</string>
-					<string>public.folder</string>
-					<string>public.jpeg</string>
-					<string>public.png</string>
-					<string>public.tiff</string>
-				</array>
-				<key>name</key>
-				<string>Compress images to WebP</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>DDFB0521-4230-42EE-9FEA-C57F71CDBA82</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -2152,7 +2003,7 @@ done</string>
 
 ✨ *Transform your images into WebP format with ease* ✨
 
-![workflow](./images/workflow.png)
+![workflow](./images/workflow.webp)
 
 ## ✅ Prerequisite
 
@@ -2165,7 +2016,7 @@ done</string>
 
 ## 🧙‍♂️ Invoke the Workflow
 
-You can invoke the workflow by writing `webp` onto the Alfred search box. You can change this value by changing the `🕹️ Workflow trigger` variable in workflow configuration panel [optionnal].
+You can invoke the workflow by writing `webp` onto the Alfred search box. You can change this value by changing the `🕹️ Trigger` variable in workflow configuration panel [optionnal].
 
 ## 🧰 Setup the workflow
 
@@ -2183,19 +2034,19 @@ You can invoke the workflow by writing `webp` onto the Alfred search box. You ca
  
 #### Check your installation under the Setup toolbox of the workflow
 
-![toolbox](./images/toolbox_dark_mode.png)
+![toolbox](./images/toolbox_dark_mode.webp)
 
 If something is not installed you'll have the following message :
 
-![jq_not_installed](./images/jq_not_installed.png)
+![jq_not_installed](./images/jq_not_installed.webp)
 
 #### CWebP version can be seen in the home menu
 
-![cwebp_home_dark_mode](./images/cwebp_home_dark_mode.png)
+![cwebp_home_dark_mode](./images/cwebp_home_dark_mode.webp)
 
 ✨ The workflow is also checking the cwebp version each time you run it.
 
-![cwebp_update](./images/cwebp_update.png)
+![cwebp_update](./images/cwebp_update.webp)
 
 ### 📂 Data (Presets and Logs) folder
 
@@ -2205,7 +2056,7 @@ It contains the presets created within the workflow + output logs of the cwebp c
 
 💡 Note that if you change the `Data folder` location after creating presets and logs, you should probably move the files created along in the new folder.
 
-![data_folder](./images/data_folder.png)
+![data_folder](./images/data_folder.webp)
 
 ## 🤖 Usage of the workflow
 
@@ -2213,55 +2064,55 @@ It contains the presets created within the workflow + output logs of the cwebp c
 
 Go under the home menu and open the `presets section`.
 
-![presets_home_dark_mode](./images/presets_home_dark_mode.png)
+![presets_home_dark_mode](./images/presets_home_dark_mode.webp)
 
 #### Create a preset
 
 Go under the `presets section` and click on "Add a preset".
 
-![add_preset_1](./images/add_preset_1.png)
+![add_preset_1](./images/add_preset_1.webp)
 
 Add your preset by putting `preset_name,preset_detail`. Note that the comma (`,`) is separating the name of the preset from its content. The content correspond to the cwebp [options] which can be found under the documentation section.
 
-![add_preset_2](./images/add_preset_2.png)
+![add_preset_2](./images/add_preset_2.webp)
 
 The created preset can be seen under the preset section. New presets are put on top of older ones.
 
-![add_preset_3](./images/add_preset_3.png)
+![add_preset_3](./images/add_preset_3.webp)
 
 #### Modify a preset
 
 Under the `presets section`, click on "Modify a preset".
 
-![modify_preset_1](./images/modify_preset_1.png)
+![modify_preset_1](./images/modify_preset_1.webp)
 
 Select the preset you want to modify.
 
-![modify_preset_2](./images/modify_preset_2.png)
+![modify_preset_2](./images/modify_preset_2.webp)
 
 Change its name/value and press enter ⏎. Don't remove the separator (`,`).
 
-![modify_preset_3](./images/modify_preset_3.png)
+![modify_preset_3](./images/modify_preset_3.webp)
 
 #### Remove a preset
 
 Under the `presets section`, click on "Remove a preset".
 
-![remove_preset_1](./images/remove_preset_1.png)
+![remove_preset_1](./images/remove_preset_1.webp)
 
 Select the preset you want to remove.
 
-![remove_preset_2](./images/remove_preset_2.png)
+![remove_preset_2](./images/remove_preset_2.webp)
 
 ### 📖 Check the documentation
 
 Go under the `documentation section` from the home menu :
 
-![docs_home_dark_mode](./images/docs_home_dark_mode.png)
+![docs_home_dark_mode](./images/docs_home_dark_mode.webp)
 
 Go to the online documentation or click on one of the options to copy it !
 
-![docs_detail](./images/docs_detail.png)
+![docs_detail](./images/docs_detail.webp)
 
 ### 🚀 Start the compression
 
@@ -2269,13 +2120,24 @@ Go to the online documentation or click on one of the options to copy it !
 
 Under the home menu, click on "Start the compression".
 
-![start_compress](./images/start_compress.png)
+![start_compress](./images/start_compress.webp)
 
 Select the folder with images or directly the image you want to compress and press enter ⏎.
 
-💡 Note that when selecting a folder, images within subdirectories aren't selected. Only images with `png|jpg|jpeg|tif|tiff|webp` file extensions are selected. In addition, they aren't case sensitive, meaning that the image extension can be `PNG|JpG|tifF...`
+💡 Note that when selecting a folder, images within subdirectories aren't selected if `🔍 Depth of the search` is `Level 0️⃣`. If you want images in subdirectories, increase this value. Only images with `png|jpg|jpeg|tif|tiff|webp` file extensions are selected. In addition, they aren't case sensitive, meaning that the image extension can be `PNG|JpG|tifF...`
 
-![direct_compress](./images/direct_compress.png)
+Here is an example where the user selected a folder and put `Level 1️⃣` in `🔍 Depth of the search` :
+.
+├── selected folder # Level 0️⃣
+│   ├── subdirectory # Level 1️⃣
+│   │   ├── image.PnG # selected ✅
+│   │   ├── a nested folder # Level 2️⃣
+│   │   │   ├── one image.webp # not selected ❌
+│   │   │   └── a second image.tiff # not selected ❌
+│   │   └── file.doc # not selected ❌
+│   └── first-image.jpeg # selected ✅
+
+![direct_compress](./images/direct_compress.webp)
 
 Alternatively, use the `Alfred Buffer` to select folder(s) and image(s) at the same time !! Basic commands are :
 
@@ -2289,11 +2151,11 @@ To know more on how to use `Alfred Buffer`, follow this [link](https://www.alfre
 
 💡 Note that `Alfred Buffer` is preferred compare to the `{query}`, meaning that if you select a folder/image (by clicking on it or by pressing enter ⏎) that is not included in the buffer, **it will not be compressed**.
 
-![alfred_buffer](./images/alfred_buffer.png)
+![alfred_buffer](./images/alfred_buffer.webp)
 
 Choose the cwebp options by selecting a preset or input it manually by pressing "Manual options".
 
-![choice_options](./images/choice_options.png)
+![choice_options](./images/choice_options.webp)
 
 Check the logs of the compression. To know more on how to read logs, see the `Logs output` section below. 
 
@@ -2301,28 +2163,29 @@ Check the logs of the compression. To know more on how to read logs, see the `Lo
 
 Select the folder(s) / image(s) you want to compress within alfred using `Quick Search` and run `Universal Actions` with → or ⌥→ if you used the `Alfred buffer`. Select "Compress images to WebP".
 
-![universal_action](./images/universal_action.png)
+![universal_action](./images/universal_action.webp)
 
 💡 Note that the workflow is type sensitive, meaning that if you select a file that is not part of the following types, the action "Compress images to WebP" will not be available
 
-![types](./images/types.png)
+![types](./images/types.webp)
 
 If you want to know more on how to use Alfred Universal Actions, follow this [link](https://www.alfredapp.com/help/features/universal-actions/).
 
 #### Logs output
 
-Check the logs of your compression under the `Data folder`. The log file contains the 2 part. 
+Check the logs of your compression under the `Data folder`. The log file contains the 2 parts. 
 
 1. In the orange box there is :
-	* `{date:YYYY/MM/dd}` : Date of the compression with a `YYYY/MM/dd` pattern.
-	* `{time:HH:mm:ss}` : Exact time of the compression with a `HH:mm:ss` pattern.
-	* `user input : {var:_links_list}` : Folder(s) + image(s) path(s) selected with a tab ⇥ separator.
-	* `cwebp options : {var:_the_preset}` : Preset or manual input. Preset will be displayed as `preset_name,preset_detail` whereas manual input will be displayed raw.
-2. In the green box there is the `{query}` which correspond to cwebp output.
+	* Date of the compression with a `YYYY/MM/dd` pattern.
+	* Exact time of the compression with a `HH:mm:ss` pattern.
+	* Folder(s) + image(s) path(s) selected with a tab ⇥ separator.
+	* Preset or manual input. Preset will be displayed as `preset_name,preset_detail` whereas manual input will be displayed raw.
+	* The selected level of variable `🔍 Depth of the search`
+2. In the green box there is the cwebp output.
 
 💡 Note that each compression is separated by a line.
 
-![log_detail](./images/log_detail.png)
+![log_detail](./images/log_detail.webp)
 
 © Benjamin Oddou</string>
 	<key>uidata</key>
@@ -2330,338 +2193,331 @@ Check the logs of your compression under the `Data folder`. The log file contain
 		<key>04D038F9-4BA3-44DE-9961-74A17474DB6D</key>
 		<dict>
 			<key>xpos</key>
-			<real>800</real>
+			<real>790</real>
 			<key>ypos</key>
-			<real>450</real>
+			<real>350</real>
 		</dict>
 		<key>0CC2B59D-DDCA-43EF-83D0-4F9E70866E77</key>
 		<dict>
 			<key>note</key>
 			<string>Please submit issues and feature requests at https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
 			<key>xpos</key>
-			<real>45</real>
+			<real>35</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>85</real>
 		</dict>
 		<key>0D2BC16E-A86B-434C-B357-9BA0F382A204</key>
 		<dict>
 			<key>xpos</key>
-			<real>1705</real>
+			<real>1775</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>565</real>
 		</dict>
 		<key>154BFBB1-825A-4E5D-A989-907CC91E90B1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>440</real>
 		</dict>
 		<key>15BCCE87-A6D5-4601-AA9A-F6EAD6B853D0</key>
 		<dict>
 			<key>xpos</key>
-			<real>1870</real>
+			<real>1940</real>
 			<key>ypos</key>
-			<real>290</real>
+			<real>190</real>
 		</dict>
 		<key>1B42C30F-88AE-47B5-B31D-B8BAF47130F4</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>1540</real>
+			<real>1610</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>440</real>
 		</dict>
 		<key>1F94198E-A0AE-4609-A7AB-18F2EA5BD61E</key>
 		<dict>
 			<key>xpos</key>
-			<real>650</real>
+			<real>640</real>
 			<key>ypos</key>
-			<real>145</real>
+			<real>40</real>
 		</dict>
 		<key>20555D55-EC80-4B6B-A627-BFB69508C68B</key>
 		<dict>
 			<key>xpos</key>
-			<real>1270</real>
+			<real>1260</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>835</real>
 		</dict>
 		<key>303F768B-D7FE-4A18-91F0-0261BD528F2A</key>
 		<dict>
 			<key>xpos</key>
-			<real>1175</real>
+			<real>1165</real>
 			<key>ypos</key>
-			<real>445</real>
+			<real>345</real>
 		</dict>
 		<key>30F44CB0-C58D-48C6-B23A-AA81E4A3CD16</key>
 		<dict>
 			<key>xpos</key>
-			<real>650</real>
+			<real>640</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>360</real>
 		</dict>
 		<key>36746137-2858-4981-968C-2DDC0B19B7E8</key>
 		<dict>
 			<key>xpos</key>
-			<real>1260</real>
+			<real>1250</real>
 			<key>ypos</key>
-			<real>790</real>
+			<real>685</real>
+		</dict>
+		<key>36FF274D-C763-4958-A7A5-607D948D7E6E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1520</real>
+			<key>ypos</key>
+			<real>715</real>
 		</dict>
 		<key>3E2FD780-20D4-4517-A4C7-3AB654D065CA</key>
 		<dict>
 			<key>xpos</key>
-			<real>1175</real>
+			<real>1165</real>
 			<key>ypos</key>
-			<real>825</real>
+			<real>720</real>
 		</dict>
 		<key>3E7A5A98-8BE4-4FE9-AC90-4DD898D1AF45</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>805</real>
+			<real>700</real>
+		</dict>
+		<key>46F04E7C-DA87-4753-BDE6-E0BD934AEC90</key>
+		<dict>
+			<key>xpos</key>
+			<real>1940</real>
+			<key>ypos</key>
+			<real>685</real>
 		</dict>
 		<key>4E7EBAA0-241E-45D4-8BF4-D8DD2B14C7B5</key>
 		<dict>
 			<key>xpos</key>
-			<real>1440</real>
+			<real>1430</real>
 			<key>ypos</key>
-			<real>825</real>
+			<real>715</real>
 		</dict>
 		<key>522260BF-CEF1-48EF-B0CE-684F4733601A</key>
 		<dict>
 			<key>xpos</key>
-			<real>800</real>
+			<real>790</real>
 			<key>ypos</key>
-			<real>295</real>
+			<real>195</real>
 		</dict>
 		<key>65FDBA59-C0EB-4475-A3FE-94595BBB1EFD</key>
 		<dict>
 			<key>xpos</key>
-			<real>1440</real>
+			<real>1430</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>835</real>
 		</dict>
 		<key>6E3869D0-4B82-40F7-9D79-109E01C84A8E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1705</real>
+			<real>1775</real>
 			<key>ypos</key>
-			<real>900</real>
+			<real>805</real>
 		</dict>
 		<key>71E64FC2-2DAA-4FAF-A464-54D8B3567EAC</key>
 		<dict>
 			<key>xpos</key>
-			<real>1705</real>
+			<real>1775</real>
 			<key>ypos</key>
-			<real>415</real>
+			<real>315</real>
 		</dict>
 		<key>73938F12-DE09-4CE5-B723-3B05299685FE</key>
 		<dict>
 			<key>xpos</key>
-			<real>1870</real>
+			<real>1940</real>
 			<key>ypos</key>
-			<real>900</real>
+			<real>805</real>
 		</dict>
 		<key>798BDC7B-0FA4-46EE-A5F2-56861741B720</key>
 		<dict>
 			<key>xpos</key>
-			<real>800</real>
+			<real>790</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>735</real>
 		</dict>
 		<key>7EE9CE94-B507-40B3-A060-BC337D689A6E</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>1540</real>
+			<real>1610</real>
 			<key>ypos</key>
-			<real>415</real>
+			<real>315</real>
 		</dict>
 		<key>816424E4-D414-4244-AACE-55015741C929</key>
 		<dict>
 			<key>xpos</key>
-			<real>1175</real>
+			<real>1165</real>
 			<key>ypos</key>
-			<real>570</real>
+			<real>470</real>
 		</dict>
 		<key>8C24C2F6-569F-446F-A73C-2C71FCF62E95</key>
 		<dict>
 			<key>xpos</key>
-			<real>895</real>
+			<real>885</real>
 			<key>ypos</key>
-			<real>835</real>
+			<real>730</real>
 		</dict>
 		<key>91898FBD-AF59-44AC-9750-B83CD3A8A694</key>
 		<dict>
 			<key>xpos</key>
-			<real>1260</real>
+			<real>1250</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>565</real>
 		</dict>
 		<key>99F304D7-85C9-481C-B520-9003FD19B70D</key>
 		<dict>
 			<key>xpos</key>
-			<real>1175</real>
+			<real>1165</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>595</real>
 		</dict>
 		<key>A0772B13-46E4-4B82-9F55-7E1454E9D3AB</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>1540</real>
+			<real>1610</real>
 			<key>ypos</key>
-			<real>900</real>
+			<real>805</real>
 		</dict>
 		<key>A555A4F7-613D-4316-B22A-968A6E69CB70</key>
 		<dict>
 			<key>xpos</key>
-			<real>1870</real>
+			<real>1940</real>
 			<key>ypos</key>
-			<real>415</real>
+			<real>315</real>
 		</dict>
 		<key>A93876C1-0937-4F57-BCC3-5B2964742411</key>
 		<dict>
 			<key>xpos</key>
-			<real>1440</real>
+			<real>1430</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>595</real>
 		</dict>
 		<key>AF4D7687-5A37-4236-B166-A78D77CAB6A5</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>290</real>
+			<real>190</real>
 		</dict>
 		<key>B0630315-06B0-4A9E-9CAD-54819448B18C</key>
 		<dict>
 			<key>xpos</key>
-			<real>1705</real>
+			<real>1775</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>440</real>
 		</dict>
 		<key>B857BE3A-4375-4247-9082-05CDEC4E3BB4</key>
 		<dict>
 			<key>xpos</key>
-			<real>365</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>820</real>
+			<real>715</real>
 		</dict>
 		<key>B884E15A-B55E-46D8-9372-5B3565E9FA28</key>
 		<dict>
 			<key>xpos</key>
-			<real>250</real>
+			<real>240</real>
 			<key>ypos</key>
-			<real>175</real>
+			<real>75</real>
 		</dict>
 		<key>C73B8C4E-A0A8-4564-9AF9-7AA8C1DE4A52</key>
 		<dict>
 			<key>xpos</key>
-			<real>1870</real>
+			<real>1940</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>440</real>
 		</dict>
 		<key>C8333BF6-C873-4B46-A39F-9FDAC8311F9F</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>1540</real>
+			<real>1610</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>565</real>
 		</dict>
 		<key>CB9B4DE3-0575-43F8-A28E-3B18C623C590</key>
 		<dict>
 			<key>xpos</key>
-			<real>650</real>
+			<real>640</real>
 			<key>ypos</key>
-			<real>275</real>
+			<real>175</real>
 		</dict>
 		<key>CE6A52F7-0196-452F-ACAB-DC1A45F35E0B</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>415</real>
+			<real>315</real>
 		</dict>
 		<key>CF62D56A-4851-4B82-806F-903137C1AC35</key>
 		<dict>
 			<key>xpos</key>
-			<real>650</real>
+			<real>640</real>
 			<key>ypos</key>
-			<real>820</real>
+			<real>715</real>
 		</dict>
 		<key>D0BCADEA-4B48-4681-BF5A-3A99963BCB69</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>565</real>
 		</dict>
 		<key>D904832A-634D-4FAD-9DEA-31793271385A</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>990</real>
 			<key>ypos</key>
-			<real>145</real>
+			<real>45</real>
 		</dict>
 		<key>DDFB0521-4230-42EE-9FEA-C57F71CDBA82</key>
 		<dict>
 			<key>xpos</key>
-			<real>365</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>960</real>
+			<real>835</real>
 		</dict>
 		<key>EF19D858-3E32-4423-AD95-F96100EC2A82</key>
 		<dict>
 			<key>xpos</key>
-			<real>550</real>
+			<real>540</real>
 			<key>ypos</key>
-			<real>850</real>
+			<real>745</real>
 		</dict>
 		<key>F76BC3A9-80D0-4768-88D5-0BF9C16DC0EB</key>
 		<dict>
 			<key>xpos</key>
-			<real>895</real>
+			<real>885</real>
 			<key>ypos</key>
-			<real>990</real>
+			<real>865</real>
 		</dict>
 		<key>FEF31982-CE2C-4D53-A108-2F06FE07A9DD</key>
 		<dict>
 			<key>xpos</key>
-			<real>1870</real>
+			<real>1940</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>565</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string>webp</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<true/>
-				<key>trim</key>
-				<true/>
-			</dict>
-			<key>description</key>
-			<string>Keyword that launch the workflow</string>
-			<key>label</key>
-			<string>🕹️ Workflow trigger</string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>trigger</string>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -2683,9 +2539,92 @@ Check the logs of your compression under the `Data folder`. The log file contain
 			<key>variable</key>
 			<string>data_folder</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>webp</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Keyword that launches the workflow</string>
+			<key>label</key>
+			<string>🕹️ Trigger</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>trigger</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>1</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Level 0️⃣</string>
+						<string>1</string>
+					</array>
+					<array>
+						<string>Level 1️⃣</string>
+						<string>2</string>
+					</array>
+					<array>
+						<string>Level 2️⃣</string>
+						<string>3</string>
+					</array>
+					<array>
+						<string>Level 3️⃣</string>
+						<string>4</string>
+					</array>
+					<array>
+						<string>Level 4️⃣</string>
+						<string>5</string>
+					</array>
+					<array>
+						<string>Level 5️⃣</string>
+						<string>6</string>
+					</array>
+					<array>
+						<string>Level 6️⃣</string>
+						<string>7</string>
+					</array>
+					<array>
+						<string>Level 7️⃣</string>
+						<string>8</string>
+					</array>
+					<array>
+						<string>Level 8️⃣</string>
+						<string>9</string>
+					</array>
+					<array>
+						<string>Level 9️⃣</string>
+						<string>10</string>
+					</array>
+					<array>
+						<string>Level 🔟</string>
+						<string>11</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>If you change this value, images in subdirectories will be listed.</string>
+			<key>label</key>
+			<string>🔍 Depth of the search</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>level</string>
+		</dict>
 	</array>
 	<key>version</key>
-	<string>2.2</string>
+	<string>2.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
 </dict>
