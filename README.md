@@ -68,8 +68,6 @@ It contains the presets created within the workflow + output logs of the cwebp c
 
 > 💡 Note that if you change the `Data folder` location after creating presets and logs, you should probably move the files created along in the new folder.
 
-![data_folder](src/images/data_folder.webp)
-
 ## 🤖 Usage of the workflow
 
 ### ⚒️ Handling presets

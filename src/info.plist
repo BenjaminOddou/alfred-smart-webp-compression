@@ -275,6 +275,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E4014A73-F4E0-48DB-A054-BA85630440C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>71E64FC2-2DAA-4FAF-A464-54D8B3567EAC</key>
 		<array>
@@ -840,7 +850,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Show cwebp documentation</string>
+				<string></string>
 				<key>title</key>
 				<string>Documentation</string>
 				<key>type</key>
@@ -961,7 +971,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Create a new preset by writing preset_name,preset_detail and press Enter ↩️</string>
+				<string>Create a new preset by writing preset_name,preset_detail and press enter</string>
 				<key>text</key>
 				<string>Add a preset</string>
 				<key>withspace</key>
@@ -1144,7 +1154,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Set the parameters for the compression</string>
+				<string></string>
 				<key>title</key>
 				<string>Presets for compression</string>
 				<key>type</key>
@@ -1261,7 +1271,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading Presets...</string>
+				<string>Loading presets...</string>
 				<key>script</key>
 				<string>./filters.sh "presets"</string>
 				<key>scriptargtype</key>
@@ -1269,7 +1279,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Create a new preset by writing preset_name,preset_detail and press Enter ↩️</string>
+				<string></string>
 				<key>title</key>
 				<string>Remove a preset</string>
 				<key>type</key>
@@ -1389,7 +1399,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Modify the preset_name,preset_detail and press Enter ↩️</string>
+				<string>Modify the preset_name,preset_detail and press enter</string>
 				<key>text</key>
 				<string>Modify the preset</string>
 				<key>withspace</key>
@@ -1426,7 +1436,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading Presets...</string>
+				<string>Loading presets...</string>
 				<key>script</key>
 				<string>./filters.sh "presets"</string>
 				<key>scriptargtype</key>
@@ -1434,7 +1444,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Modify the preset_name,preset_detail and press Enter ↩️</string>
+				<string></string>
 				<key>title</key>
 				<string>Modify a preset</string>
 				<key>type</key>
@@ -1524,7 +1534,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Write the cwebp options and press Enter ↩️</string>
+				<string>Write the cwebp options and press enter</string>
 				<key>text</key>
 				<string>Input your cwebp options</string>
 				<key>withspace</key>
@@ -1568,7 +1578,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Loading elements...</string>
 				<key>script</key>
 				<string>./filters.sh "presets_options"</string>
 				<key>scriptargtype</key>
@@ -1576,7 +1586,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Select the preset you want to use for the compression or put your own cwebp options</string>
+				<string></string>
 				<key>title</key>
 				<string>Select a preset or input your options</string>
 				<key>type</key>
@@ -1679,7 +1689,7 @@
 				<key>sortmode</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>Loading Images and Folders....</string>
+				<string>Start writing to find images and folders</string>
 				<key>title</key>
 				<string>Choose images / folders for compression</string>
 				<key>types</key>
@@ -1997,6 +2007,25 @@ ______________________
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:data_folder}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E4014A73-F4E0-48DB-A054-BA85630440C7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># 🎩 Alfred Smart WebP
@@ -2055,8 +2084,6 @@ If something is not installed you'll have the following message :
 It contains the presets created within the workflow + output logs of the cwebp compression.
 
 💡 Note that if you change the `Data folder` location after creating presets and logs, you should probably move the files created along in the new folder.
-
-![data_folder](./images/data_folder.webp)
 
 ## 🤖 Usage of the workflow
 
@@ -2494,6 +2521,13 @@ Check the logs of your compression under the `Data folder`. The log file contain
 			<key>ypos</key>
 			<real>835</real>
 		</dict>
+		<key>E4014A73-F4E0-48DB-A054-BA85630440C7</key>
+		<dict>
+			<key>xpos</key>
+			<real>1940</real>
+			<key>ypos</key>
+			<real>925</real>
+		</dict>
 		<key>EF19D858-3E32-4423-AD95-F96100EC2A82</key>
 		<dict>
 			<key>xpos</key>
@@ -2623,8 +2657,10 @@ Check the logs of your compression under the `Data folder`. The log file contain
 			<string>level</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>2.3</string>
+	<string>2.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
 </dict>

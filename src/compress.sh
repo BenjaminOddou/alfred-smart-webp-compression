@@ -3,9 +3,7 @@
 emojis=( "0️⃣" "1️⃣" "2️⃣" "3️⃣" "4️⃣" "5️⃣" "6️⃣" "7️⃣" "8️⃣" "9️⃣" "🔟" )
 echo "🔍 Depth of the search : Level ${emojis[$level]}\n"
 
-RAW_LINKS=$(echo "$_links_list" | sed 's/ /\ /')
-LINKS=(${(s/	/)RAW_LINKS}) # split by tab
-
+LINKS=(${(s/	/)_links_list}) # split by tab
 IMAGES=()
 IFS=$'\n'
 
