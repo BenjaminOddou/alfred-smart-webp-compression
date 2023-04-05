@@ -2,7 +2,7 @@
     "items": [
         {
             "title": "Example of presets ↓",
-            "subtitle": "Press ⏎ to apply the preset or ⌘⏎ to modify it. These are just examples, you can remove them",
+            "subtitle": "Press ⏎ to modify the preset. These are just examples, you can remove them",
             "arg": "remove me",
             "id": "9563BA83-6322-4392-9B39-93FE9A13CE47",
             "icon": { 
