@@ -1,7 +1,15 @@
 #!/bin/zsh
 
-emojis=( "0️⃣" "1️⃣" "2️⃣" "3️⃣" "4️⃣" "5️⃣" "6️⃣" "7️⃣" "8️⃣" "9️⃣" "🔟" )
-echo "🔍 Depth of the search : Level ${emojis[$level]}\n"
+function handle_error {
+  source ./notificator --title "🚨 Error" --message "An error occurred! Exiting script.." --sound "$sound"
+  exit 1
+}
+
+trap "handle_error" ERR
+
+(source ./notificator --title "⏳ Please wait..." --message "The workflow is generating images" --sound "$sound") &
+
+echo "🔍 Depth of the search : Level ${level}\n"
 
 LINKS=(${(s/	/)_links_list}) # split by tab
 IMAGES=()
@@ -18,3 +26,8 @@ done
 for IMAGE in "${IMAGES[@]}"; do
   2>&1 eval "cwebp $_the_preset \"$IMAGE\" -o \"${IMAGE%.*}.webp\""
 done
+
+if [[ $workflow_action = "_notif" ]];then
+  sleep 0.5
+  source ./notificator --title "⌛ Finished" --message "Process completed. You can check the log file" --sound "$sound"
+fi

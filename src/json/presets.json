@@ -1,0 +1,31 @@
+{
+    "items": [
+        {
+            "title": "Example of presets ↓",
+            "subtitle": "Press ⏎ to apply the preset or ⌘⏎ to modify it. These are just examples, you can remove them",
+            "arg": "remove me",
+            "id": "9563BA83-6322-4392-9B39-93FE9A13CE47",
+            "icon": { 
+                "path": "icons/presets.webp" 
+            }
+        },
+        {
+            "title": "Classic",
+            "subtitle": "Good quality (80) with slow compression and multithread",
+            "arg": "-v -print_psnr -print_ssim -print_lsim -m 6 -q 70 -mt -af",
+            "id": "C9536D8E-79E1-4E51-B94B-65FD313BC32E",
+            "icon": { 
+                "path": "icons/presets.webp" 
+            }
+        },
+        {
+            "title": "Crop 64px",
+            "subtitle": "Crop image to 64px height + medium quality (60)",
+            "arg": "-q 60 -resize 64 0",
+            "id": "4F77F996-0B86-4036-9B8D-9104DA5A523F",
+            "icon": { 
+                "path": "icons/presets.webp" 
+            }
+        }
+    ]
+}
