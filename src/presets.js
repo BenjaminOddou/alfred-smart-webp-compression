@@ -26,9 +26,9 @@ try {
     if (action == 'new') {
         const uuid = $.NSUUID.UUID.UUIDString.js
         const _new_preset = $.NSProcessInfo.processInfo.environment.objectForKey('_new_preset')?.js || ''
-        const args = $.NSProcessInfo.processInfo.arguments.objectAtIndex(4).js
-        const title = args.split('/')[0]
-        const subtitle = args.split('/')[1]
+        const args = $.NSProcessInfo.processInfo.arguments.objectAtIndex(4).js.split('/')
+        const title = args[0]?.trim() !== '' ? args[0]?.trim() : 'No title';
+        const subtitle = args[1]?.trim() !== '' ? args[1]?.trim() : 'No description';
         items.push(
             {
                 title: `${title}`,
@@ -54,8 +54,9 @@ try {
         const new_value = $.NSProcessInfo.processInfo.arguments.objectAtIndex(4).js
         const key = $.NSProcessInfo.processInfo.environment.objectForKey('modif6')?.js || ''
         if (type == 'tl&sb') {
-            const title = new_value.split('/')[0]
-            const subtitle = new_value.split('/')[1]
+            const args = new_value.split('/')
+            const title = args[0]?.trim() !== '' ? args[0]?.trim() : 'No title';
+            const subtitle = args[1]?.trim() !== '' ? args[1]?.trim() : 'No description';
             content.items.forEach(item => {
                 if (item.id == key) {
                     item.title = title

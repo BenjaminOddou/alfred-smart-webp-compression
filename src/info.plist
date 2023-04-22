@@ -1654,7 +1654,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>This folder contains presets and logs outputs</string>
+			<string>this folder contains presets and logs outputs.</string>
 			<key>label</key>
 			<string>📂 Data folder</string>
 			<key>type</key>
@@ -1675,7 +1675,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Keyword that launches the workflow</string>
+			<string>keyword that launches the workflow.</string>
 			<key>label</key>
 			<string>🕹️ Trigger</string>
 			<key>type</key>
@@ -1696,7 +1696,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Input a value between 1 and ∞.</string>
+			<string>input a value between 1 and ∞. allows to compress images in nested folders.</string>
 			<key>label</key>
 			<string>🔍 Depth of the search</string>
 			<key>type</key>
@@ -1730,7 +1730,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Choose output action.</string>
+			<string>choose output action.</string>
 			<key>label</key>
 			<string>🔫 Workflow action</string>
 			<key>type</key>
@@ -1824,7 +1824,7 @@ Go to the dedicated [GitHub repository](https://github.com/BenjaminOddou/alfred-
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.0.1</string>
+	<string>3.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/BenjaminOddou/alfred-smart-webp-compression</string>
 </dict>
